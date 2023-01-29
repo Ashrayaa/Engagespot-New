@@ -46,17 +46,17 @@ const Introduction = (props: Props) => {
         <div className="flex gap-4 mt-4">
           <Image
             src={Yolkart}
-            alt="logo"
+            alt="Yolkart"
             className="w-24 xl:w-36 2xl:w-44 fill-[#6b6b6b]"
           />
           <Image
             src={Docmentor}
-            alt="logo"
+            alt="Docmentor"
             className="w-24 xl:w-36 2xl:w-44 fill-[#6b6b6b]"
           />
           <Image
             src={Sameday}
-            alt="logo"
+            alt="Sameday"
             className="w-24 xl:w-36 2xl:w-44 fill-[#6b6b6b]"
           />
         </div>

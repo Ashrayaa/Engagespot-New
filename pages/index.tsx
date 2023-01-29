@@ -4,6 +4,7 @@ import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
+import Zapier from "./components/Zapier";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function Home() {
       <main className="bg-black">
         <Header />
         <Introduction/>
+        <Zapier/>
       </main>
     </>
   );
