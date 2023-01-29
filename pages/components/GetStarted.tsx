@@ -7,3 +7,5 @@ const GetStarted = (props: Props) => {
     <div>GetStarted</div>
   )
 }
+
+export default GetStarted;

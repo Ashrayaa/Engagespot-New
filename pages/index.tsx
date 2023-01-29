@@ -5,6 +5,12 @@ import styles from "@/styles/Home.module.css";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import Zapier from "./components/Zapier";
+import Features from "./components/Features";
+import Fordevelopers from "./components/Fordevelopers";
+import CommunicationLayer from "./components/CommunicationLayer";
+import Testimonials from "./components/Testimonials";
+import GetStarted from "./components/GetStarted";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +30,12 @@ export default function Home() {
         <Header />
         <Introduction/>
         <Zapier/>
+        <Features/>
+        <Fordevelopers/>
+        <CommunicationLayer/>
+        <Testimonials/>
+        <GetStarted/>
+        <Footer/>
       </main>
     </>
   );
