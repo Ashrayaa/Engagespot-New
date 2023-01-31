@@ -34,7 +34,12 @@ module.exports = {
       white: "#FFFFFF",
     },
 
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'hero-pattern': "url('/engagespot/public/backimage.svg')",
+      }
+    },
   },
   plugins: [],
 };

@@ -1,11 +1,134 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+import Logo from "public/engagespotlogo.svg";
+import Linkedin from "public/linkedin.svg";
+import Twitter from "public/twitter.svg";
+import Github from "public/github.svg";
+import Link from "next/link";
 
-type Props = {}
+type Props = {};
 
 const Footer = (props: Props) => {
   return (
-    <div>Footer</div>
-  )
-}
+    <>
+      <div className="mt-12 lg:mx-12 lg:flex lg:flex-col">
+        <div className="lg:flex lg:justify-center lg:align-middle lg:items-baseline">
+          <div className="flex flex-col gap-4">
+            <div>
+              <Link href="/">
+                <Image src={Logo} alt="logo" width="150" className="mx-4" />
+              </Link>
+            </div>
+            <p className="text-[#B4B4B4] text-xs mx-4">
+              Campaigns For Email, Linkedin, and Twitter
+            </p>
+            <div className="flex gap-5 mx-4 lg:mx-0">
+              <Link href="/">
+                <Image
+                  src={Linkedin}
+                  alt="Linkedin"
+                  width="27"
+                  className="lg:pb-5 md:pl-4"
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  src={Twitter}
+                  alt="Twitter"
+                  width="27"
+                  className="lg:pb-5 md:pl-4"
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  src={Github}
+                  alt="Github"
+                  width="27"
+                  className="lg:pb-5 md:pl-4"
+                />
+              </Link>
+            </div>
+          </div>
+
+          <div className="grid grid-flow-row grid-cols-2 gap-12 mx-4 mt-12 lg:mt-0 lg:flex lg:gap-12">
+            <div className="text-left">
+              <h2 className="text-white text-sm lg:text-xl lg:font-semibold font-medium">
+                Product
+              </h2>
+              <ul className="text-[#9E9E9E] text-[10px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
+                <li>Pricing</li>
+                <li>React Notifications</li>
+                <li>Notification UI kit</li>
+                <li>Features</li>
+                <li>Disposabel email Detector</li>
+              </ul>
+            </div>
+
+            <div className="text-right lg:text-left">
+              <h2 className="text-white text-sm lg:text-xl lg:font-semibold font-medium">
+                Company
+              </h2>
+              <ul className="text-[#9E9E9E] text-[10px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
+                <li>Blog</li>
+                <li>Discord</li>
+                <li>Doc</li>
+                <li>Roadmap</li>
+              </ul>
+            </div>
+
+            <div className="text-left">
+              <h2 className="text-white text-sm lg:text-xl lg:font-semibold font-medium">
+                Channels
+              </h2>
+              <ul className="text-[#9E9E9E]  text-[10px] lg:text-sm lg:font-medium  font-normal flex flex-col gap-5 mt-6">
+                <li>In-App</li>
+                <li>Web Push</li>
+                <li>SMS</li>
+                <li>Mail</li>
+                <li>Whatsapp</li>
+                <li>Slack</li>
+              </ul>
+            </div>
+
+            <div className="text-right lg:text-left">
+              <h2 className="text-white text-sm lg:text-xl lg:font-semibold font-medium">
+                SDKs & Libraries
+              </h2>
+              <ul className="text-[#9E9E9E] text-[10px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
+                <li>React</li>
+                <li>Angular</li>
+                <li>Javascript</li>
+                <li>VueJS</li>
+                <li>Browser Javascript</li>
+                <li>Node.js</li>
+                <li>Laravel</li>
+                <li>Symfony</li>
+                <li>Go</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="mx-10 h-[1px] bg-[#D4D4D4] mt-10"></div>
+
+        <div className="lg:flex lg:gap-28 lg:justify-center lg:items-center lg:flex-row-reverse">
+
+          <div className="mt-6 lg:mt-0">
+            <ul className="text-[#989292] text-xs flex gap-4 justify-center items-center ">
+              <li>Help</li>
+              <li>Terms and Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+
+          <div className="">
+            <p className="text-[#989292] text-xs flex justify-center items-center mt-4 lg:mt-0 py-4">
+              © 2022 Engagespot. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default Footer;

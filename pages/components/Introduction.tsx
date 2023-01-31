@@ -39,25 +39,25 @@ const Introduction = (props: Props) => {
           />
         </div>
       </div>
-      <div className="px-4 2xl:ml-[430px] xl:ml-[360px]">
-        <h4 className="text-[#525252] tracking-widest text-[11px] xl:text-lg 2xl:text-xl">
+      <div className="px-4 sm:ml-[120px] lg:ml-[230px] 2xl:ml-[430px] xl:ml-[360px]">
+        <h4 className="text-[#525252] sm:text-[#A7A6A7] tracking-widest sm:text-[13px] lg:text-lg text-[11px] 2xl:text-xl">
           TRUSTED BY HAPPY DEVELOPER WORLWIDE
         </h4>
-        <div className="flex gap-4 mt-4">
+        <div className="flex gap-4 mt-4 lg:gap-16 lg:ml-[4px]">
           <Image
             src={Yolkart}
             alt="Yolkart"
-            className="w-24 xl:w-36 2xl:w-44 fill-[#6b6b6b]"
+            className="w-24 lg:w-32 xl:w-36 2xl:w-44 fill-[#6b6b6b]"
           />
           <Image
             src={Docmentor}
             alt="Docmentor"
-            className="w-24 xl:w-36 2xl:w-44 fill-[#6b6b6b]"
+            className="w-24 lg:w-32 xl:w-36 2xl:w-44 fill-[#6b6b6b]"
           />
           <Image
             src={Sameday}
             alt="Sameday"
-            className="w-24 xl:w-36 2xl:w-44 fill-[#6b6b6b]"
+            className="w-24 lg:w-32 xl:w-36 2xl:w-44 fill-[#6b6b6b]"
           />
         </div>
       </div>
