@@ -19,7 +19,7 @@ const Introduction = (props: Props) => {
           <p className="text-[#8B8B8B] lg:text-[#a9a9a9] text-xs md:text-left px-7 sm:px-28 md:px-0 md:pl-4 xl:text-2xl xl:font-semibold 2xl:text-3xl 2xl:font-semibold text-center shadow-2xl opacity-60">
             Say goodbye to building & maintaining a notification micro-service.
           </p>
-          <div className="flex gap-4 justify-center lg:justify-start lg:ml-3 md:-ml-44 md:pl-1 py-6">
+          <div className="flex gap-4 justify-center mt-10 lg:justify-start lg:ml-3 md:-ml-44 md:pl-1 py-6">
             <div className="bg-white p-[0.5px] rounded-lg shadow-white">
               <button className="border-none rounded-lg font-semibold  p-2 px-4 bg-[#a513b4] text-white">
                 Get Started
