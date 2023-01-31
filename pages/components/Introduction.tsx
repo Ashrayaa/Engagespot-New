@@ -41,7 +41,7 @@ const Introduction = (props: Props) => {
         </div>
       </div>
       {/* sm:ml-[120px] lg:ml-[230px] 2xl:ml-[430px] xl:ml-[360px] -> */}
-      <div className="px-4 flex flex-col justify-center items-center xl:mt-14">
+      <div className="px-4 flex flex-col justify-center items-center xl:mt-24">
         <h4 className="text-[#525252] sm:text-[#A7A6A7] tracking-widest sm:text-[13px] lg:text-lg text-[11px] xl:text-[25px]">
           TRUSTED BY HAPPY DEVELOPER WORLWIDE
         </h4>
