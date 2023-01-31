@@ -16,10 +16,10 @@ const Footer = (props: Props) => {
           <div className="flex flex-col gap-4">
             <div>
               <Link href="/">
-                <Image src={Logo} alt="logo" width="150" className="mx-4" />
+                <Image src={Logo} alt="logo" width="150" className="mx-4 xl:w-44" />
               </Link>
             </div>
-            <p className="text-[#B4B4B4] text-xs mx-4">
+            <p className="text-[#B4B4B4] xl:tracking-wide xl:leading-8 text-xs xl:text-[19px] mx-4">
               Campaigns For Email, Linkedin, and Twitter
             </p>
             <div className="flex gap-5 mx-4 lg:mx-0">
@@ -28,7 +28,7 @@ const Footer = (props: Props) => {
                   src={Linkedin}
                   alt="Linkedin"
                   width="27"
-                  className="lg:pb-5 md:pl-4"
+                  className="lg:pb-5 xl:w-[55px] md:pl-4"
                 />
               </Link>
               <Link href="/">
@@ -36,7 +36,7 @@ const Footer = (props: Props) => {
                   src={Twitter}
                   alt="Twitter"
                   width="27"
-                  className="lg:pb-5 md:pl-4"
+                  className="lg:pb-5 xl:w-[55px] md:pl-4"
                 />
               </Link>
               <Link href="/">
@@ -44,7 +44,7 @@ const Footer = (props: Props) => {
                   src={Github}
                   alt="Github"
                   width="27"
-                  className="lg:pb-5 md:pl-4"
+                  className="lg:pb-5 xl:w-[55px] md:pl-4"
                 />
               </Link>
             </div>
@@ -55,7 +55,7 @@ const Footer = (props: Props) => {
               <h2 className="text-white text-sm lg:text-xl lg:font-semibold font-medium">
                 Product
               </h2>
-              <ul className="text-[#9E9E9E] text-[10px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
+              <ul className="text-[#9E9E9E] text-[10px] xl:text-[16px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
                 <li>Pricing</li>
                 <li>React Notifications</li>
                 <li>Notification UI kit</li>
@@ -68,7 +68,7 @@ const Footer = (props: Props) => {
               <h2 className="text-white text-sm lg:text-xl lg:font-semibold font-medium">
                 Company
               </h2>
-              <ul className="text-[#9E9E9E] text-[10px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
+              <ul className="text-[#9E9E9E] text-[10px] xl:text-[16px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
                 <li>Blog</li>
                 <li>Discord</li>
                 <li>Doc</li>
@@ -80,7 +80,7 @@ const Footer = (props: Props) => {
               <h2 className="text-white text-sm lg:text-xl lg:font-semibold font-medium">
                 Channels
               </h2>
-              <ul className="text-[#9E9E9E]  text-[10px] lg:text-sm lg:font-medium  font-normal flex flex-col gap-5 mt-6">
+              <ul className="text-[#9E9E9E]  text-[10px] xl:text-[16px] lg:text-sm lg:font-medium  font-normal flex flex-col gap-5 mt-6">
                 <li>In-App</li>
                 <li>Web Push</li>
                 <li>SMS</li>
@@ -94,7 +94,7 @@ const Footer = (props: Props) => {
               <h2 className="text-white text-sm lg:text-xl lg:font-semibold font-medium">
                 SDKs & Libraries
               </h2>
-              <ul className="text-[#9E9E9E] text-[10px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
+              <ul className="text-[#9E9E9E] text-[10px] xl:text-[16px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
                 <li>React</li>
                 <li>Angular</li>
                 <li>Javascript</li>
