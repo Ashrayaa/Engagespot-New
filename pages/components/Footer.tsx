@@ -110,7 +110,7 @@ const Footer = (props: Props) => {
         </div>
         <div className="mx-10 h-[1px] bg-[#D4D4D4] mt-10"></div>
 
-        <div className="lg:flex lg:gap-28 lg:justify-center lg:items-center lg:flex-row-reverse">
+        <div className="lg:flex lg:gap-28 lg:justify-between lg:mx-16 lg:items-center lg:flex-row-reverse">
 
           <div className="mt-6 lg:mt-0">
             <ul className="text-[#989292] text-xs flex gap-4 justify-center items-center ">

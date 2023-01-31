@@ -13,7 +13,7 @@ const Zapier = (props: Props) => {
         It&apos;s like Zapier for notifications
       </h2>
 
-      <p className="text-[#8B8B8B] lg:text-[#c3c3c3]  tracking-normal leading-7 lg:text-[16px] text-xs  px-9 xl:text-lg xl:font-semibold 2xl:text-xl 2xl:font-semibold text-center shadow-2xl opacity-60">
+      <p className="text-[#8B8B8B] lg:text-[#c3c3c3] xl:leading-9 xl:tracking-wide  tracking-normal leading-7 lg:text-[16px] text-xs  px-9 xl:text-lg xl:font-light xl:py-4 xl:pb-16 2xl:text-xl 2xl:font-semibold text-center shadow-2xl opacity-60">
         Don&apos;t complicate your backend with AP Integrations of several
         notificationproviders .Just write a single clean integration and then
         send notifications to any service you want.
@@ -31,7 +31,7 @@ const Zapier = (props: Props) => {
         <Image
           src={Zapier2}
           alt="zapier2"
-          className="hidden lg:flex xl:-mt-[500px] -mt-[400px] mb-24"
+          className="hidden lg:flex xl:-mt-[530px] -mt-[400px] mb-24"
         />
       </div>
 

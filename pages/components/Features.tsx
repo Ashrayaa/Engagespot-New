@@ -1,6 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import Inapp from "public/inapp.svg";
+import Email from "public/email.png";
+import Search from "public/search.png";
+import Slack from "public/slack.png";
+import Notification from "public/noti.png";
+import User from "public/user.png";
+import Mobile from "public/mobilepush.png";
+import Logs from "public/noti.png";
+import Template from "public/noti.png";
+import WhatsApp from "public/whatsapp.png";
+import SMS from "public/sms.png";
+
 type Props = {};
 
 const Features = (props: Props) => {
@@ -18,10 +29,10 @@ const Features = (props: Props) => {
         </p>
         <div className="lg:grid lg:grid-flow-row lg:grid-cols-3 lg:mx-8 2xl:mx-48 2xl:mt-6 xl:mx-36">
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* In-app notifications */}
               <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 In-app notification
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center">
@@ -31,10 +42,10 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* Email notifications */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <Image src={Email} alt="In-app notifications" className="w-16" />
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 Email notifications
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center">
@@ -44,10 +55,10 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* Web push */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <Image src={Search} alt="In-app notifications" className="w-16" />
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 Web push
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center">
@@ -57,10 +68,10 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* Slack */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <Image src={Slack} alt="In-app notifications" className="w-16" />
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 Slack
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-3 xl:py-[22px]">
@@ -70,10 +81,10 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* Notification Batching */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <Image src={Notification} alt="In-app notifications" className="w-16" />
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 Notification Batching
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-0.5 xl:py-[12px]">
@@ -84,10 +95,10 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* Mobile push */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <Image src={Mobile} alt="In-app notifications" className="w-16" />
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 Mobile push
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[22px] lg:py-3">
@@ -97,10 +108,10 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* WhatsApp */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <Image src={WhatsApp} alt="In-app notifications" className="w-16" />
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 WhatsApp
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-5 xl:py-[30px]">
@@ -110,9 +121,9 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/*  User preferences */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
+              <Image src={User} alt="In-app notifications" className="w-16" />
               <h2 className="text-white text-lg font-semibold tracking-wide lg:py-2">
                 User preferences{" "}
               </h2>
@@ -124,10 +135,10 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/*SMS */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <Image src={SMS} alt="In-app notifications" className="w-16" />
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 SMS
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-5 xl:py-[30px]">
@@ -137,10 +148,10 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* Template Editor */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <Image src={Template} alt="In-app notifications" className="w-16" />
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 Template Editor{" "}
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[20px]">
@@ -151,10 +162,10 @@ const Features = (props: Props) => {
           </div>
 
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* Logs and monitoring */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
-              <h2 className="text-white text-lg font-semibold tracking-wide">
+              <Image src={Logs} alt="In-app notifications" className="w-16" />
+              <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 Logs and monitoring
               </h2>
               <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[10px]">
@@ -164,13 +175,13 @@ const Features = (props: Props) => {
             </div>
           </div>
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
-            <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+            <div className="hidden lg:flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* Logs and monitoring */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
+              <Image src={Logs} alt="In-app notifications" className="w-16" />
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 Logs and monitoring
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[10px]">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[12px]">
                 Get access to logs from providers to debug cross-channel
                 delivery and analyze performance.
               </p>

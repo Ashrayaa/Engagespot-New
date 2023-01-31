@@ -10,9 +10,9 @@ type Props = {};
 const Introduction = (props: Props) => {
   return (
     <>
-      <div className="bg-black flex flex-col md:flex-row md:justify-between xl:mx-6 md:mx-4 lg:mx-0 lg:-ml-5 2xl:mt-20 justify-center items-center">
+      <div className="bg-black flex flex-col md:flex-row md:justify-between xl:mx-6 md:mx-4 lg:mx-0 lg:-ml-5 xl:mt-16 justify-center items-center">
         {/* 2xl:-ml-12 xl:-ml-14 */}
-        <div className="md:flex md:flex-col md:float-left lg:justify-start lg:w-[540px] xl:w-[850px] 2xl:w-[1200px] 2xl:gap-6 xl:gap-2 md:w-[600px] md:-mt-14 xl:-mt-2">
+        <div className="md:flex md:flex-col md:float-left lg:justify-start lg:w-[540px] xl:w-[850px] 2xl:w-[1200px] 2xl:gap-6 xl:gap-2 md:w-[600px] md:-mt-14">
           <h1 className="text-white text-center md:text-left font-semibold text-3xl lg:text-5xl 2xl:text-7xl xl:text-7xl xl:leading-[70px] 2xl:leading-[80px] px-2 sm:px-20 md:pl-4 py-4 mt-6">
             Build Notification Infrastructure for your Product
           </h1>

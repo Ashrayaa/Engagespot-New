@@ -18,7 +18,7 @@ const GetStarted = (props: Props) => {
           Get started
         </h2>
 
-        <p className="text-[#8B8B8B]  tracking-wide leading-7 lg:text-[#a9a9a9] text-xs lg:text-sm px-7 xl:text-lg xl:font-semibold 2xl:text-xl 2xl:font-semibold text-center shadow-2xl opacity-60">
+        <p className="text-[#8B8B8B] lg:text-[#c3c3c3] xl:leading-9 xl:tracking-wide  tracking-normal leading-7 lg:text-[16px] text-xs  px-9 xl:text-lg xl:font-light xl:py-4 xl:pb-16 2xl:text-xl 2xl:font-semibold text-center shadow-2xl opacity-60">
           Create a free account and add a complete notification system to{" "}
           <br></br> your product in minutes. No credit card required.
         </p>
