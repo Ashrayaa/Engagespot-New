@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Zapie from "public/zapier.svg";
+import Zapie from "public/zapier.png";
 import Zapier2 from "public/zapier2.svg";
 
 type Props = {};

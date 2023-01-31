@@ -16,7 +16,7 @@ const Features = (props: Props) => {
           Just integrate our SDKs and APIs to build a scalable notification
           system for your product.
         </p>
-        <div className="lg:grid lg:grid-flow-row lg:grid-cols-3 lg:mx-8 2xl:mx-48 2xl:mt-6">
+        <div className="lg:grid lg:grid-flow-row lg:grid-cols-3 lg:mx-8 2xl:mx-48 2xl:mt-6 xl:mx-36">
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
             <div className="flex flex-col justify-center items-center gap-3 py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* In-app notifications */}
@@ -50,7 +50,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 Web push
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[10px]">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center">
                 Built in support for browser push notifications.{" "}
               </p>
             </div>
@@ -63,7 +63,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 Slack
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-3">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-3 xl:py-[22px]">
                 Send chat messages to your users via Slack.{" "}
               </p>
             </div>
@@ -76,7 +76,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 Notification Batching
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-0.5">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-0.5 xl:py-[12px]">
                 Ability to combine frequent notifications into one to avoid
                 spamming users.
               </p>
@@ -90,7 +90,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 Mobile push
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-3">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[22px] lg:py-3">
                 Deliver push notifications via FCM, APNS etc{"    "}
               </p>
             </div>
@@ -103,7 +103,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 WhatsApp
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-5">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-5 xl:py-[30px]">
                 Send WhatsApp messages to your users.{" "}
               </p>
             </div>
@@ -116,7 +116,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide lg:py-2">
                 User preferences{" "}
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-0.5">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-0.5 xl:py-[13px]">
                 Allow your users to set their notification preferences. UI
                 components included.{" "}
               </p>
@@ -130,7 +130,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 SMS
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-5">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center lg:py-5 xl:py-[30px]">
                 Send SMS notifications to your users.
               </p>
             </div>
@@ -143,7 +143,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 Template Editor{" "}
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[10px]">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[20px]">
                 Manage notification content for all channels using our easy
                 template editor.
               </p>
@@ -157,7 +157,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 Logs and monitoring
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[10px]">
                 Get access to logs from providers to debug cross-channel
                 delivery and analyze performance.
               </p>
@@ -170,7 +170,7 @@ const Features = (props: Props) => {
               <h2 className="text-white text-lg font-semibold tracking-wide">
                 Logs and monitoring
               </h2>
-              <p className="text-[#8B8B8B] opacity-80 text-sm text-center">
+              <p className="text-[#8B8B8B] opacity-80 text-sm text-center xl:py-[10px]">
                 Get access to logs from providers to debug cross-channel
                 delivery and analyze performance.
               </p>
