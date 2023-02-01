@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Code from "public/code.svg";
 import Codedesk from "public/codedesk.svg";
+import LibraryBar from "./LibraryBar";
 type Props = {};
 
 const Fordevelopers = (props: Props) => {
@@ -16,6 +17,7 @@ const Fordevelopers = (props: Props) => {
           front-end and backend <br></br> SDKs or REST APIs to build a scalable
           notification infrastructure for your product in minutes.
         </p>
+        <LibraryBar/>
         <div className="mt-10 ml-4 lg:hidden">
           <Image src={Code} alt="zapier" />
         </div>

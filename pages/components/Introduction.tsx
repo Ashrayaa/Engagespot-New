@@ -21,12 +21,12 @@ const Introduction = (props: Props) => {
           </p>
           <div className="flex gap-4 justify-center xl:mt-10 lg:justify-start lg:ml-3 md:-ml-44 md:pl-1 py-6">
             <div className="bg-white p-[0.5px] rounded-lg shadow-white">
-              <button className="border-none rounded-lg font-semibold  p-2 px-4 bg-[#a513b4] text-white">
+              <button className="border-none text-lg rounded-lg font-semibold  p-2 px-4 bg-[#a513b4] text-white">
                 Get Started
               </button>
             </div>
             <div className="bg-gradient-to-r from-[#FF38D1] to-[#262626] via-[#FFFFFF] p-[0.5px] rounded-lg">
-              <button className="border-none rounded-lg font-medium p-2 px-4 bg-[#262626] text-white">
+              <button className="border-none text-lg rounded-lg font-semibold p-2 px-4 bg-[#262626] text-white">
                 Book Demo
               </button>
             </div>
