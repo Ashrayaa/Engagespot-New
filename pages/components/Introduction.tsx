@@ -10,7 +10,7 @@ type Props = {};
 const Introduction = (props: Props) => {
   return (
     <>
-      <div className="bg-black flex flex-col md:flex-row md:justify-between xl:mx-6 md:mx-4 lg:mx-0 lg:-ml-5 xl:mt-16 justify-center items-center">
+      <div className="lg:px-6 flex flex-col md:flex-row md:justify-between xl:mx-6 md:mx-4 lg:mx-0 lg:-ml-5 xl:mt-[72px] justify-center items-center">
         {/* 2xl:-ml-12 xl:-ml-14 */}
         <div className="md:flex md:flex-col md:float-left lg:justify-start lg:w-[540px] xl:w-[850px] 2xl:w-[1200px] 2xl:gap-6 xl:gap-2 md:w-[600px] md:-mt-14">
           <h1 className="text-white text-center md:text-left font-semibold text-3xl lg:text-5xl 2xl:text-7xl xl:text-7xl xl:leading-[70px] 2xl:leading-[80px] px-2 sm:px-20 md:pl-4 py-4 mt-6">
@@ -21,12 +21,12 @@ const Introduction = (props: Props) => {
           </p>
           <div className="flex gap-4 justify-center xl:mt-10 lg:justify-start lg:ml-3 md:-ml-44 md:pl-1 py-6">
             <div className="bg-white p-[0.5px] rounded-lg shadow-white">
-              <button className="border-none text-lg rounded-lg font-semibold  p-2 px-4 bg-[#a513b4] text-white">
+              <button className="border-none text-lg xl:text-xl xl:py-3 rounded-lg font-semibold  p-2 px-4 bg-[#a513b4] text-white">
                 Get Started
               </button>
             </div>
             <div className="bg-gradient-to-r from-[#FF38D1] to-[#262626] via-[#FFFFFF] p-[0.5px] rounded-lg">
-              <button className="border-none text-lg rounded-lg font-semibold p-2 px-4 bg-[#262626] text-white">
+              <button className="border-none text-lg xl:text-xl xl:py-3 rounded-lg font-semibold p-2 px-4 bg-[#262626] text-white">
                 Book Demo
               </button>
             </div>
