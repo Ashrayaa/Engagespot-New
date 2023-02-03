@@ -21,7 +21,7 @@ const Introduction = (props: Props) => {
           </p>
           <div className="flex gap-4 justify-center xl:mt-10 lg:justify-start lg:ml-3 md:-ml-44 md:pl-1 py-6">
             <div className="bg-white p-[0.5px] rounded-lg shadow-white">
-              <button className="border-none text-lg xl:text-xl xl:py-3 rounded-lg font-semibold  p-2 px-4 bg-[#a513b4] text-white">
+              <button className="border-none text-lg xl:text-xl xl:py-3 rounded-lg shadow-[inset_0_0px_10px_#EFEFEF] font-semibold  p-2 px-4 bg-[#a513b4] text-white">
                 Get Started
               </button>
             </div>
