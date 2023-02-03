@@ -8,7 +8,7 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <>
-      <div className="xl:mx-6 flex lg:justify-between lg:items-center lg:p-4 lg:px-6 p-4 text-white lg:gap-24 2xl:justify-around xl:justify-between xl:gap-52 2xl:gap-[400px]">
+      <div className="xl:mx-6 flex lg:justify-between lg:items-center lg:p-4 lg:px-6 p-4 text-white lg:gap-24 2xl:justify-around xl:justify-between xl:gap-52 2xl:gap-[420px]">
         {/* LOGO */}
         <Link href="/">
           <Image src={Logo} alt="logo" width="150" className="lg:pb-5 md:pl-4" />
