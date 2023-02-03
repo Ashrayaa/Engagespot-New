@@ -4,6 +4,7 @@ import Intro from "public/Introimage.svg";
 import Yolkart from "public/yolkart.png";
 import Docmentor from "public/docmentor.png";
 import Sameday from "public/sameday.png";
+import Link from 'next/link';
 
 type Props = {};
 

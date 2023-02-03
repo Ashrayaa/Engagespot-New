@@ -11,7 +11,12 @@ const Header = (props: Props) => {
       <div className="xl:mx-6 flex lg:justify-between lg:items-center lg:p-4 lg:px-6 p-4 text-white lg:gap-24 2xl:justify-around xl:justify-between xl:gap-52 2xl:gap-[420px]">
         {/* LOGO */}
         <Link href="/">
-          <Image src={Logo} alt="logo" width="150" className="lg:pb-5 md:pl-4" />
+          <Image
+            src={Logo}
+            alt="logo"
+            width="150"
+            className="lg:pb-5 md:pl-4"
+          />
         </Link>
 
         {/* Menu */}
@@ -19,7 +24,9 @@ const Header = (props: Props) => {
           <ul className="lg:flex lg:justify-center lg:items-center lg:gap-10 2xl:gap-16 ">
             <li>Products</li>
             <li>Pricing</li>
-            <li>Integrations</li>
+            <Link href="/integration">
+              <li>Integrations</li>
+            </Link>
             <li>Documentation</li>
             <li>Blog</li>
           </ul>
