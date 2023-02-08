@@ -20,7 +20,7 @@ const Testimonials = (props: Props) => {
                 <Image
                   src={Person}
                   alt="In-app notifications"
-                  className="w-16"
+                  className="w-16" 
                 />
                 <div className="flex flex-col">
                   <h2 className="text-white text-lg font-semibold tracking-wide">

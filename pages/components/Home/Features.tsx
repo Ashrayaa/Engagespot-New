@@ -31,7 +31,7 @@ const Features = (props: Props) => {
           <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl m-4">
             <div className="flex flex-col justify-center items-center gap-3 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
               {/* In-app notifications */}
-              <Image src={Inapp} alt="In-app notifications" className="w-16" />
+              <Image src={Inapp} alt="In-app notifications" className="w-16" quality={80}/>
               <h2 className="text-white text-[21px] font-semibold tracking-wide">
                 In-app notification
               </h2>

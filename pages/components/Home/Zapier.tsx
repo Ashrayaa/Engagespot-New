@@ -7,7 +7,7 @@ type Props = {};
 
 const Zapier = (props: Props) => {
   return (
-    <div className="flex flex-col mt-20 justify-center items-center">
+    <div className="flex flex-col mt-44 justify-center items-center">
 
       <h2 className="text-[#E7E3E3] text-xl lg:text-4xl xl:text-5xl px-10 mb-4 text-center font-semibold">
         It&apos;s like Zapier for notifications
@@ -23,7 +23,7 @@ const Zapier = (props: Props) => {
         <Image
           src={Zapie}
           alt="zapier"
-          className="w-96 lg:hidden -mt-[440px]"
+          className="w-96 lg:hidden -mt-[440px]" 
         />
       </div>
 
@@ -31,7 +31,7 @@ const Zapier = (props: Props) => {
         <Image
           src={Zapier2}
           alt="zapier2"
-          className="hidden lg:flex xl:-mt-[600px] -mt-[400px] mb-24"
+          className="hidden lg:flex xl:-mt-[600px] -mt-[400px] mb-24" 
         />
       </div>
 

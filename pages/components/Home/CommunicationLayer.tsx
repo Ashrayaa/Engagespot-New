@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Commu1 from "public/commu.svg";
+import Commu1 from "public/commu.png";
 import Commu2 from "public/commu2.svg";
 
 type Props = {};
@@ -19,10 +19,11 @@ const CommunicationLayer = (props: Props) => {
           notification infrastructure for your product in minutes.
         </p>
         <div className="-mt-44 ml-4 lg:hidden">
-          <Image src={Commu1} alt="communication" />
+          <Image src={Commu1} alt="communication" quality={80}
+      />
         </div>
         <div className="hidden xl:-mt-[620px] 2xl:-mt-[600px] lg:flex -mt-[410px]">
-          <Image src={Commu2} alt="communication" />
+          <Image src={Commu2} alt="communication" quality={80}/>
         </div>
       </div>
     </>

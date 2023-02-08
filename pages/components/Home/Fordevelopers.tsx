@@ -2,7 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Code from "public/code.svg";
 import Codedesk from "public/codedesk.svg";
+import Light from "public/light.png";
 import LibraryBar from "./LibraryBar";
+import Reacticon from "public/reacticon.svg";
+import Javascript from "public/js.svg";
+import Node from "public/node.svg";
+import Ellipse from "public/ellipse.png";
+
 type Props = {};
 
 const Fordevelopers = (props: Props) => {
@@ -17,12 +23,72 @@ const Fordevelopers = (props: Props) => {
           front-end and backend <br></br> SDKs or REST APIs to build a scalable
           notification infrastructure for your product in minutes.
         </p>
-        <LibraryBar/>
-        <div className="mt-10 ml-4 lg:hidden">
-          <Image src={Code} alt="zapier" />
-        </div>
-        <div className="hidden lg:flex mt-12">
-          <Image src={Codedesk} alt="zapier" />
+        <div className="relative flex flex-col justify-center items-center">
+      
+
+          {/* <LibraryBar/> */}
+          <div className="rounded-lg bg-gradient-to-b from-[#D6D6D6] to-[#232323] via-[#FFFFFF] p-[0.5px] mt-6 mb-12 mx-4 lg:mx-44 xl:mx-[360px] 2xl:mx-[450px]">
+            <div className="grid grid-flow-row grid-cols-6 border-none rounded-lg text-white gap-1 bg-[#232323] p-2">
+              <button className="flex  flex-col font-extralight text-[10px] px-[6px]  justify-center items-center focus:border-[#8D8D8D] rounded-lg lg:font-light lg:px-[14px] lg:py-4 lg:text-lg gap-4 focus:border">
+                <Image
+                  src={Reacticon}
+                  alt="Reacticon"
+                  className="w-7 lg:w-12    "
+                />
+                <p>React</p>
+              </button>
+              <button className="flex flex-col font-extralight text-[10px]  px-[6px] justify-center items-center focus:border-[#8D8D8D] rounded-lg  lg:font-light lg:px-[14px] lg:py-4 lg:text-lg gap-4 focus:border">
+                <Image
+                  src={Javascript}
+                  alt="Reacticon"
+                  className="w-7 lg:w-12    "
+                />
+                <p>Javascript</p>
+              </button>
+              <button className="flex  flex-col font-extralight text-[10px]  px-[6px] justify-center items-center focus:border-[#8D8D8D] rounded-lg  lg:font-light lg:px-[14px] lg:py-4 lg:text-lg gap-4 focus:border">
+                <Image src={Node} alt="Reacticon" className="w-7 lg:w-12    " />
+                <p>Node</p>
+              </button>
+
+              <button className="flex  flex-col font-extralight text-[10px]  px-[6px] justify-center items-center focus:border-[#8D8D8D] rounded-lg  lg:font-light lg:px-[14px] lg:py-4 lg:text-lg gap-4 focus:border">
+                <Image
+                  src={Javascript}
+                  alt="Reacticon"
+                  className="w-7 lg:w-12    "
+                />
+                <p>Javascript</p>
+              </button>
+              <button className="flex  flex-col font-extralight text-[10px] px-[6px]  justify-center items-center focus:border-[#8D8D8D] rounded-lg lg:font-light lg:px-[14px] lg:py-4 lg:text-lg gap-4 focus:border">
+                <Image src={Node} alt="Reacticon" className="w-7 lg:w-12    " />
+                <p>Node</p>
+              </button>
+              <button className="flex  flex-col font-extralight text-[10px] px-[6px]  justify-center items-center focus:border-[#8D8D8D] rounded-lg lg:font-light lg:px-6 lg:py-4 lg:text-lg gap-4 focus:border">
+                <Image
+                  src={Javascript}
+                  alt="Reacticon"
+                  className="w-7 lg:w-12 "
+                />
+                <p>Javascript</p>
+              </button>
+            </div>
+          </div>
+
+          <div className="ml-4 lg:hidden">
+            <Image src={Code} alt="code" />
+          </div>
+          <div className="hidden lg:flex ">
+            <Image src={Codedesk} alt="codedesk" className=""/>
+          </div>
+          {/* <div className="hidden lg:flex justify-center items-center">
+              <Image src={Light} alt="intro image" className="lg:-mt-[330px]" />
+            </div>
+          <div className="hidden lg:flex justify-center items-center">
+              <Image src={Light} alt="intro image" className="lg:" />
+            </div>
+
+          <div className="hidden absolute lg:flex -mx-4 ">
+            <Image src={Ellipse} alt="ellipse" /> */}
+          {/* </div> */}
         </div>
       </div>
     </>

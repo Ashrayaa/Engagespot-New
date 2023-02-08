@@ -34,9 +34,9 @@ const GetStarted = (props: Props) => {
         </div>
 
         <div className="flex -mt-40 lg:-mt-96 xl:-mt-[600px]">
-          <Image src={Secured} alt="Secured" className="w-[125px] h-[115px] lg:w-[300px] lg:h-[200px]" />
-          <Image src={Easy} alt="Easy" className="w-[125px] h-[115px] lg:w-[300px] lg:h-[200px]" />
-          <Image src={Affordable} alt="Affordable" className="w-[125px] h-[115px] lg:w-[300px] lg:h-[200px]" />
+          <Image src={Secured} alt="Secured" className="w-[125px] h-[115px] lg:w-[300px] lg:h-[200px]"  quality={80}/>
+          <Image src={Easy} alt="Easy" className="w-[125px] h-[115px] lg:w-[300px] lg:h-[200px]" quality={80} />
+          <Image src={Affordable} alt="Affordable" className="w-[125px] h-[115px] lg:w-[300px] lg:h-[200px]" quality={80} />
         </div>
       </div>
     </>

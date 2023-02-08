@@ -20,10 +20,10 @@ const Integration_intro = (props: Props) => {
   return (
     <div>
       <div className="flex flex-col">
-        <div className="flex flex-col justify-center gap-6 lg:mx-6 ">
-          <div className="md:grid md:grid-cols-3 md:grid-flow-row lg:gap-10 grid gap-6 md:text-center md:justify-center">
+        <div className="flex flex-col justify-center gap-6 xl:mx-12 2xl:mx-44 mx-8 ">
+          <div className="md:grid md:grid-cols-3 md:grid-flow-row lg:gap-10 grid gap-6 md:text-center md:justify-center mb-12">
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl">
-              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-12 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-8 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
                 {/* logo */}
                 <div className="">
                   <Image src={Amazon} alt="Twilio Sendgrid" />
@@ -49,7 +49,7 @@ const Integration_intro = (props: Props) => {
             </div>
 
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl">
-              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-12 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-8 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
                 {/* logo */}
                 <div className="">
                   <Image src={Mailgun} alt="Twilio Sendgrid" />
@@ -75,7 +75,7 @@ const Integration_intro = (props: Props) => {
             </div>
 
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl">
-              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-12 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-8 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
                 {/* logo */}
                 <div className="">
                   <Image src={Sendgrid} alt="Twilio Sendgrid" />
@@ -101,7 +101,7 @@ const Integration_intro = (props: Props) => {
             </div>
 
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl">
-              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-12 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-8 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
                 {/* logo */}
                 <div className="">
                   <Image src={Twilio} alt="Twilio Sendgrid" />
@@ -127,7 +127,7 @@ const Integration_intro = (props: Props) => {
             </div>
 
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl">
-              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-12 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-8 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
                 {/* logo */}
                 <div className="">
                   <Image src={Message} alt="Twilio Sendgrid" />
@@ -153,7 +153,7 @@ const Integration_intro = (props: Props) => {
             </div>
 
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl">
-              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-12 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-8 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
                 {/* logo */}
                 <div className="">
                   <Image src={Sinch} alt="Twilio Sendgrid" />
@@ -179,7 +179,7 @@ const Integration_intro = (props: Props) => {
             </div>
 
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl">
-              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-12 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-8 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
                 {/* logo */}
                 <div className="">
                   <Image src={Karix} alt="Twilio Sendgrid" />
@@ -205,7 +205,7 @@ const Integration_intro = (props: Props) => {
             </div>
 
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl">
-              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-12 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-8 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
                 {/* logo */}
                 <div className="">
                   <Image src={Gupshup} alt="Twilio Sendgrid" />
@@ -231,7 +231,7 @@ const Integration_intro = (props: Props) => {
             </div>
 
             <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl">
-              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-12 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
+              <div className="border flex flex-col justify-center items-center  gap-5 p-4 lg:py-8 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
                 {/* logo */}
                 <div className="">
                   <Image src={Firebase} alt="Twilio Sendgrid" />

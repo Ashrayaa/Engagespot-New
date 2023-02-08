@@ -20,7 +20,7 @@ const Integration_intro = (props: Props) => {
         <p className="lg:text-sm -mt-6 text-center text-xs xl:text-xl 2xl:text-2xl">
           Without writing a single line of code
         </p>
-      </div>{" "}
+      </div>
     </div>
   );
 };
