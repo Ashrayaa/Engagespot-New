@@ -1,12 +1,12 @@
 import React from "react";
 import Head from "next/head";
 
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Sample from "./components/Sample";
-import Build from "./components/Home/Build";
-import Integration_intro from "./components/Integrations/Integration_intro";
-import Integration_body from "./components/Integrations/Integration_body";
+import Footer from "src/components/footer/Footer";
+import Header from "src/components/header/Header";
+//import Sample from "./components/Sample";
+// import Build from "./components/Home/Build";
+// import Integration_intro from "./components/Integrations/Integration_intro";
+// import Integration_body from "./components/Integrations/Integration_body";
 
 type Props = {};
 
@@ -25,9 +25,9 @@ const Integrations = (props: Props) => {
       <main className="bg-black lg:bg-[#191818] xl:bg-gradient-to-tl from-[#0D0D0D] to-[#2b2a2a]">
         <Header />
         {/* <Sample/> */}
-        <Integration_intro/>
+        {/* <Integration_intro/>
         <Integration_body/>
-        <Build/>
+        <Build/> */}
         <Footer />
       </main>
     </>

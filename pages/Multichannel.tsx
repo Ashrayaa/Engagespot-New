@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Newspaper from "public/Newspaper.svg";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Build from "./components/Home/Build";
+import Header from "src/components/header/Header";
+import Footer from "src/components/footer/Footer";
+//import Build from "./components/Home/Build";
 import Code from "public/codewidth.svg";
 
 const Multichannel = () => {
@@ -86,7 +86,7 @@ const Multichannel = () => {
         </div>
       </div>
 
-<Build/>
+{/* <Build/> */}
       <Footer />
     </div>
   );

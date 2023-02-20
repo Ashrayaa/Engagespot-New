@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Mailgunimg from "public/mailgunintro.svg";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "src/components/header/Header";
+import Footer from "src/components/footer/Footer";
 
 const Mailgun = () => {
   return (
