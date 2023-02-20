@@ -9,7 +9,7 @@ const CommunicationLayer = (props: Props) => {
  
   return (
     <>
-      <div className="flex flex-col lg:mt-24 mt-10 justify-center items-center ">
+      <div className="flex flex-col lg:mt-72 mt-10 justify-center items-center">
         <h2 className="text-[#E7E3E3] lg:text-4xl text-2xl xl:text-5xl px-10 mb-4 text-center font-semibold">
           Simple to use outgoing communication layer{" "}
         </h2>

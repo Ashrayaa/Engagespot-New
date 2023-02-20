@@ -16,7 +16,7 @@ const Introduction = (props: Props) => {
           <h1 className="text-white text-center md:text-left font-semibold text-3xl lg:text-5xl 2xl:text-7xl xl:text-7xl xl:leading-[90px] 2xl:leading-[80px] px-2 sm:px-20 md:pl-4 py-4 mt-6">
             Build Notification Infrastructure for your Product
           </h1>
-          <p className="text-[#8B8B8B] lg:text-[#a9a9a9] xl:mt-6 text-xs md:text-left px-7 sm:px-28 md:px-0 md:pl-4 xl:text-[22px] xl:font-semibold 2xl:text-3xl 2xl:font-semibold text-center shadow-2xl opacity-60">
+          <p className="text-[#8B8B8B] lg:text-[#a9a9a9] xl:text-[#ffff] xl:mt-6 text-xs md:text-left px-7 sm:px-28 md:px-0 md:pl-4 xl:text-[22px] xl:font-semibold 2xl:text-3xl 2xl:font-semibold text-center shadow-2xl opacity-60">
             Say goodbye to building & maintaining a notification micro-service.
           </p>
           <div className="flex gap-4 justify-center xl:mt-10 lg:justify-start lg:ml-3 md:-ml-44 md:pl-1 py-6">

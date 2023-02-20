@@ -7,7 +7,7 @@ type Props = {};
 
 const Zapier = (props: Props) => {
   return (
-    <div className="flex flex-col mt-44 justify-center items-center">
+    <div className="flex flex-col mt-36 justify-center items-center">
 
       <h2 className="text-[#E7E3E3] text-xl lg:text-4xl xl:text-5xl px-10 mb-4 text-center font-semibold">
         It&apos;s like Zapier for notifications
