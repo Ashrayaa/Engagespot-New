@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "public/engagespotlogo.svg";
+import Logo from "src/assets/logo/engagespotlogo.svg";
 import Linkedin from "public/linkedin.svg";
 import Twitter from "public/twitter.svg";
 import Github from "public/github.svg";

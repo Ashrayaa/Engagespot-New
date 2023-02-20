@@ -2,15 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
-import Header from "./components/Header";
-import Introduction from "./components/Home/Introduction";
-import Zapier from "./components/Home/Zapier";
-import Features from "./components/Home/Features";
-import Fordevelopers from "./components/Home/Fordevelopers";
-import CommunicationLayer from "./components/Home/CommunicationLayer";
-import Testimonials from "./components/Home/Testimonials";
-import GetStarted from "./components/Home/GetStarted";
-import Footer from "./components/Footer";
+import Header from "../src/components/header/Header";
+import Introduction from "../src/modules/home/Introduction";
+import Zapier from "../src/modules/home/Zapier";
+import Features from "../src/modules/home/Featureslist";
+import Fordevelopers from "../src/modules/home/Chooselanguage";
+import CommunicationLayer from "../src/modules/home/CommunicationLayer";
+import Testimonials from "../src/modules/home/Testimonials";
+import GetStarted from "../src/modules/home/GetStarted";
+import Footer from "../src/components/footer/Footer";
 import { useRouter } from 'next/router'
 
 const inter = Inter({ subsets: ["latin"] });

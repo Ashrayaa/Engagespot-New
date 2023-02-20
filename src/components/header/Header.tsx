@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "public/engagespotlogo.svg";
+import Logo from "src/assets/logo/engagespotlogo.svg";
 import Link from "next/link";
 
 type Props = {};
@@ -22,7 +22,9 @@ const Header = (props: Props) => {
         {/* Menu */}
         <div className="hidden lg:flex lg:justify-center lg:gap-10">
           <ul className="lg:flex lg:justify-center lg:items-center lg:gap-10 2xl:gap-16 ">
-            <li>Products</li>
+            <Link href="/products">
+              <li>Products</li>
+            </Link>
             <li>Pricing</li>
             <Link href="/integration">
               <li>Integrations</li>

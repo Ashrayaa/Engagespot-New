@@ -3,14 +3,14 @@ import Head from "next/head";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Sample from "./components/Sample";
 import Build from "./components/Home/Build";
 import Integration_intro from "./components/Integrations/Integration_intro";
 import Integration_body from "./components/Integrations/Integration_body";
+import ProductMenu from "./components/Products/productsmenu";
 
 type Props = {};
 
-const Integrations = (props: Props) => {
+const Products = (props: Props) => {
   return (
     <>
       <Head>
@@ -24,13 +24,10 @@ const Integrations = (props: Props) => {
       </Head>
       <main className="bg-black lg:bg-[#191818] xl:bg-gradient-to-tl from-[#0D0D0D] to-[#2b2a2a]">
         <Header />
-        {/* <Sample/> */}
-        <Integration_intro/>
-        <Integration_body/>
-        <Build/>
+       <ProductMenu/>
         <Footer />
       </main>
     </>
   );
 };
-export default Integrations;
+export default Products;
