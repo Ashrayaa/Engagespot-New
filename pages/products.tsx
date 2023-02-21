@@ -4,8 +4,7 @@ import Head from "next/head";
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
 //import Build from "./components/Home/Build";
-//import Integration_intro from "./components/Integrations/Integration_intro";
-//import Integration_body from "./components/Integrations/Integration_body";
+
 import ProductMenu from "src/modules/Products/productsmenu";
 
 type Props = {};

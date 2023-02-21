@@ -3,11 +3,10 @@ import Head from "next/head";
 
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
-//import Sample from "./components/Sample";
 import Build from "src/components/common/Build";
 import Integration_intro from "src/modules/Integrations/Integration_intro";
 import Integration_body from "src/modules/Integrations/Integration_body";
-import Pricingintro from "@/src/modules/pricing/pricingintro";
+import Pricingintro from "src/modules/pricing/pricingintro";
 
 type Props = {};
 
