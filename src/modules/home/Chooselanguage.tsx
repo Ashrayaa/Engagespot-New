@@ -16,19 +16,19 @@ const Fordevelopers = (props: Props) => {
   return (
     <div className="">
       <div className="flex flex-col bg-hero-pattern lg:mt-24 mt-10 bg-no-repeat bg-cover bg-center bg-fixed justify-center items-center ">
-        <h2 className="text-[#E7E3E3] text-2xl lg:text-4xl xl:text-5xl px-10 mb-4 text-center font-semibold">
+        <h2 className="text-[#E7E3E3] tracking-wider text-2xl lg:text-4xl xl:text-5xl px-10 mb-4 text-center font-semibold">
           Built for Developers
         </h2>
-        <p className="text-[#8B8B8B] lg:text-[#c3c3c3] xl:leading-9 xl:tracking-wide  tracking-normal leading-7 lg:text-[16px] text-xs  px-9 xl:text-lg xl:font-light xl:py-4 xl:pb-16 2xl:text-xl 2xl:font-semibold text-center shadow-2xl opacity-60">
+        <p className="text-[#8B8B8B] lg:text-[#c3c3c3] xl:leading-9 xl:tracking-wide  tracking-normal leading-7 lg:text-[16px] text-[14px]  px-12 xl:text-lg xl:font-light xl:py-4 xl:pb-16 2xl:text-xl 2xl:font-semibold text-center shadow-2xl opacity-60">
           Engagespot is built by developers, for developers. Simply use our
-          front-end and backend <br></br> SDKs or REST APIs to build a scalable
+          front-end and backend SDKs or REST APIs to build a scalable
           notification infrastructure for your product in minutes.
         </p>
         <div className="relative z-20 flex flex-col justify-center items-center">
           {/* <LibraryBar/> */}
           <div className="rounded-lg bg-gradient-to-b from-[#D6D6D6] to-[#232323] via-[#FFFFFF] p-[0.5px] z-10 mt-6 mb-12 mx-4 lg:mx-44 xl:mx-[360px] 2xl:mx-[450px]">
             <div className="grid grid-flow-row grid-cols-6  border-none rounded-lg text-white gap-1 bg-[#232323] p-2">
-              <button className="flex  flex-col font-extralight text-[10px] px-[6px]  justify-center items-center focus:border-[#8D8D8D] rounded-lg lg:font-light lg:px-[14px] lg:py-4 lg:text-lg gap-4 focus:border">
+              <button className="flex  flex-col font-extralight text-[10px] px-[6px]  justify-center items-center focus:border-[#8D8D8D] rounded-lg lg:font-light lg:px-[14px] lg:py-4 lg:text-lg gap-4 focus:border checked:">
                 <Image
                   src={Reacticon}
                   alt="Reacticon"
