@@ -6,7 +6,7 @@ import Header from "src/components/header/Header";
 import Build from "src/components/common/Build";
 import Integration_intro from "src/modules/Integrations/Integration_intro";
 import Integration_body from "src/modules/Integrations/Integration_body";
-import Pricingintro from "src/modules/Pricing/Pricingintro";
+//import Pricingintro from "src/modules/Pricing/Pricingintro";
 
 type Props = {};
 
@@ -24,7 +24,7 @@ const Pricing = (props: Props) => {
       </Head>
       <main className="bg-black lg:bg-[#191818] xl:bg-gradient-to-tl from-[#0D0D0D] to-[#2b2a2a]">
         <Header />
-        <Pricingintro />
+        {/* <Pricingintro /> */}
         <Build />
         <Footer />
       </main>
