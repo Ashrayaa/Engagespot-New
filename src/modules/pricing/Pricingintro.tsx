@@ -2,7 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Intro from "public/integration_bg.svg";
 
-const Pricingintro = () => {
+type Props = {};
+
+const Pricingintro = (props: Props) => {
   return (
     <div className="relative z-0">
       <div className="flex justify-center items-center">
@@ -15,7 +17,7 @@ const Pricingintro = () => {
         <h1 className="font-semibold text-center leading-10 text-[27px] md:text-4xl lg:text-5xl lg:leading-normal xl:text-[75px] xl:leading-normal 2xl:text-[80px] 2xl:leading-normal">
           Simple Pricing{" "}
         </h1>
-        <p className="lg:text-sm -mt-6 text-center text-xs xl:text-xl 2xl:text-2xl lg:px-[500px]">
+        <p className="lg:text-sm -mt-6 text-center text-xs xl:text-xl 2xl:text-2xl">
           Building a sophisticated transactional notification system in your
           product needs lot of engineering effort. Why build from scratch when
           you can just buy and use it from day one?{" "}
