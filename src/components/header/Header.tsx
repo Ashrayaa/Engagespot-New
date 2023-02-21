@@ -25,7 +25,9 @@ const Header = (props: Props) => {
             <Link href="/products">
               <li>Products</li>
             </Link>
-            <li>Pricing</li>
+            <Link href="/pricing">
+              <li>Pricing</li>
+            </Link>
             <Link href="/integration">
               <li>Integrations</li>
             </Link>
