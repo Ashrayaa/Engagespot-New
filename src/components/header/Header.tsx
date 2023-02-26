@@ -8,37 +8,40 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <>
-      <div className="xl:mx-6 flex lg:justify-between lg:items-center lg:p-4 lg:px-6 p-4 text-white lg:gap-24 2xl:justify-around xl:justify-between xl:gap-52 2xl:gap-[420px]">
+      <div className="flex lg:justify-between lg:items-center p-4 text-white lg:gap-24 xl:gap-52 border-none sm:bg-[#161618] sm:mx-8 sm:p-6 lg:p-4 lg:mx-10 xl:mx-36 2xl:mx-56 xl:px-6 rounded-full">
         {/* LOGO */}
         <Link href="/">
           <Image
             src={Logo}
             alt="logo"
             width="150"
-            className="lg:pb-5 md:pl-4"
+            className=" lg:pb-4"
           />
         </Link>
 
         {/* Menu */}
-        <div className="hidden lg:flex lg:justify-center lg:gap-10">
-          <ul className="lg:flex lg:justify-center lg:items-center lg:gap-10 2xl:gap-16 ">
+        <div className="hidden lg:flex lg:justify-center lg:gap-6">
+          <ul className="lg:flex lg:justify-center lg:items-center lg:gap-8 2xl:gap-10 ">
             <Link href="/products">
-              <li>Products</li>
+              <li className="hover:text-[#aa4875]">Products</li>
             </Link>
             <Link href="/pricing">
-              <li>Pricing</li>
+              <li className="hover:text-[#aa4875]">Pricing</li>
             </Link>
             <Link href="/integration">
-              <li>Integrations</li>
+              <li className="hover:text-[#aa4875]">Integrations</li>
             </Link>
-            <li>Documentation</li>
-            <li>Blog</li>
+            <li className="hover:text-[#aa4875]">Documentation</li>
+            <li className="hover:text-[#aa4875]">Blog</li>
           </ul>
-          <div className="bg-gradient-to-r from-[#FF38D1] to-[#262626] via-[#FFFFFF] p-[0.5px] rounded-lg">
+          <button className=" rounded-full font-semibold p-4 bg-white hover:bg-[#aa4875] text-[#0D0D0E] hover:text-white transition duration-300 transform hover:scale-110">
+            Get Started
+          </button>
+          {/* <div className="bg-gradient-to-r from-[#FF38D1] to-[#262626] via-[#FFFFFF] p-[0.5px] rounded-lg">
             <button className="border-none rounded-lg font-medium p-2 px-4 bg-[#262626]">
               Book Demo
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
