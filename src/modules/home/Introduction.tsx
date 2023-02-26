@@ -42,7 +42,7 @@ const Introduction = (props: Props) => {
       <div className="px-4 flex flex-col gap-6 justify-center items-center xl:mt-12 ">
         <h4 className="text-[#FFFFFF] mt-12 sm:text-[13px] lg:text-lg text-[11px] xl:text-[20px]">
         Trusted By Happy Developers Worldwide       </h4>
-        <div className="flex gap-3 mt-4 lg:gap-16">
+        <div className="flex gap-3 mt-4 lg:gap-16 animate-move infinite">
           <Image
             src={Yolkart}
             alt="Yolkart"
@@ -61,6 +61,31 @@ const Introduction = (props: Props) => {
             className="w-28 lg:w-32 xl:w-52"
             quality={80}
           />
+           <Image
+            src={Sameday}
+            alt="Sameday"
+            className="w-28 lg:w-32 xl:w-52"
+            quality={80}
+          /> 
+           <Image
+            src={Sameday}
+            alt="Sameday"
+            className="w-28 lg:w-32 xl:w-52"
+            quality={80}
+          />
+           <Image
+            src={Yolkart}
+            alt="Yolkart"
+            className="w-28 lg:w-32 xl:w-52"
+            quality={80}
+          />
+           <Image
+            src={Yolkart}
+            alt="Yolkart"
+            className="w-28 lg:w-32 xl:w-52"
+            quality={80}
+          />
+
           <Image
             src={Sameday}
             alt="Sameday"
