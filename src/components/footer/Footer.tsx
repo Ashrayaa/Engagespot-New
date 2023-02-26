@@ -12,8 +12,8 @@ const Footer = (props: Props) => {
   return (
     <>
       <div className="mt-12 lg:mx-12 lg:flex lg:flex-col">
-        <div className="lg:flex xl:gap-10 2xl:gap-14 lg:justify-center lg:align-middle lg:items-baseline">
-          <div className="flex flex-col gap-4">
+        <div className="lg:flex xl:gap-24 lg:justify-center xl:mb-12 lg:items-baseline">
+          <div className="flex flex-col gap-6">
             <div>
               <Link href="/">
                 <Image
@@ -25,13 +25,20 @@ const Footer = (props: Props) => {
               </Link>
             </div>
             <p className="text-[#B4B4B4] xl:tracking-wide xl:leading-8 text-xs xl:text-[17px] mx-4">
-              Zapier for notification{" "}
-            </p>
+The complete notification infrastructure for your product            </p>
             <div className="flex gap-5 mx-4 lg:mx-0">
               <Link href="/">
                 <Image
                   src={Linkedin}
                   alt="Linkedin"
+                  width="27"
+                  className="lg:pb-5 xl:w-[55px] md:pl-4"
+                />
+              </Link>
+              <Link href="/">
+                <Image
+                  src={Github}
+                  alt="Github"
                   width="27"
                   className="lg:pb-5 xl:w-[55px] md:pl-4"
                 />
@@ -55,7 +62,7 @@ const Footer = (props: Props) => {
             </div>
           </div>
 
-          <div className="grid grid-flow-row grid-cols-2 gap-12 mx-4 mt-12 lg:mt-0 lg:flex lg:gap-12">
+          <div className="grid grid-flow-row grid-cols-2 gap-12 mx-4 mt-12 lg:flex lg:gap-12">
             <div className="text-left">
               <h2 className="text-white text-sm lg:text-xl lg:font-semibold font-medium">
                 Product

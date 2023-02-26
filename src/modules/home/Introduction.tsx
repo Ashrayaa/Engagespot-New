@@ -22,10 +22,10 @@ const Introduction = (props: Props) => {
             product notification infrastructure APIs and SDKs
           </p>
           <div className="flex flex-row gap-6 justify-center py-6">
-              <button className=" rounded-full font-semibold xl:p-6 p-4 xl:text-xl  bg-white hover:bg-[#aa4875] text-[#0D0D0E] hover:text-white  transition duration-300 transform hover:scale-110">
+              <button className=" rounded-full font-semibold p-4 xl:p-5 xl:px-6 xl:text-xl  bg-white hover:bg-[#aa4875] text-[#0D0D0E] hover:text-white  transition duration-300 transform hover:scale-110">
                 Get Started
               </button>
-              <button className="rounded-full font-semibold xl:p-6 p-4 xl:text-xl text-white bg-[#212123] transition duration-300 transform hover:scale-110 hover:outline">
+              <button className="rounded-full font-semibold p-4 xl:p-5 xl:px-6 xl:text-xl text-white bg-[#212123] transition duration-300 transform hover:scale-110 hover:outline">
                 Book a Demo
               </button>
           </div>
