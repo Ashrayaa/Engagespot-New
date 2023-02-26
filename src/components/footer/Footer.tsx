@@ -12,7 +12,7 @@ const Footer = (props: Props) => {
   return (
     <>
       <div className="mt-12 lg:mx-12 lg:flex lg:flex-col">
-        <div className="lg:flex lg:justify-center lg:align-middle lg:items-baseline">
+        <div className="lg:flex xl:gap-10 2xl:gap-14 lg:justify-center lg:align-middle lg:items-baseline">
           <div className="flex flex-col gap-4">
             <div>
               <Link href="/">
