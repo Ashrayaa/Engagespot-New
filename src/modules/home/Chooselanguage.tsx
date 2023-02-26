@@ -18,7 +18,7 @@ const Fordevelopers = (props: Props) => {
         <h2 className="text-[#E7E3E3] tracking-wider text-2xl lg:text-4xl xl:text-5xl px-10 mb-4 text-center font-semibold">
           Built for Developers
         </h2>
-        <p className="text-[#C0C0C8] xl:leading-9 leading-7 lg:text-[16px] text-[14px] 2xl:px-80 px-12 xl:text-lg xl:py-4 xl:pb-16 2xl:text-xl 2xl:font-medium text-center">
+        <p className="text-[#C0C0C8] xl:leading-9 leading-7 lg:text-[16px] text-[14px] xl:px-72 2xl:px-80 px-12 xl:text-lg xl:py-4 xl:pb-16 2xl:text-xl 2xl:font-medium text-center">
           Engagespot is built by developers, for developers. Simply use our
           front-end and backend SDKs or REST APIs to build a scalable
           notification infrastructure for your product in minutes.

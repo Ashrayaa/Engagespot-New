@@ -31,7 +31,7 @@ const Zapier = (props: Props) => {
         <Image
           src={Zapier2}
           alt="zapier2"
-          className="hidden lg:flex -mt-10" 
+          className="hidden lg:flex xl:-ml-10 2xl:-ml-0 -mt-10" 
         />
       </div>
 

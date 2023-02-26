@@ -16,11 +16,16 @@ const Footer = (props: Props) => {
           <div className="flex flex-col gap-4">
             <div>
               <Link href="/">
-                <Image src={Logo} alt="logo" width="150" className="mx-4 xl:w-44" />
+                <Image
+                  src={Logo}
+                  alt="logo"
+                  width="150"
+                  className="mx-4 xl:w-44"
+                />
               </Link>
             </div>
-            <p className="text-[#B4B4B4] xl:tracking-wide xl:leading-8 text-xs xl:text-[19px] mx-4">
-              Campaigns For Email, Linkedin, and Twitter
+            <p className="text-[#B4B4B4] xl:tracking-wide xl:leading-8 text-xs xl:text-[17px] mx-4">
+              Zapier for notification{" "}
             </p>
             <div className="flex gap-5 mx-4 lg:mx-0">
               <Link href="/">
@@ -108,10 +113,9 @@ const Footer = (props: Props) => {
             </div>
           </div>
         </div>
-        <div className="mx-10 h-[1px] bg-[#D4D4D4] mt-10"></div>
+        {/* <div className="mx-10 h-[1px] bg-[#D4D4D4] mt-10"></div> */}
 
         <div className="lg:flex lg:gap-28 lg:justify-between lg:mx-16 lg:items-center lg:flex-row-reverse">
-
           <div className="mt-6 lg:mt-0">
             <ul className="text-[#989292] text-xs flex gap-4 justify-center items-center ">
               <li>Help</li>
