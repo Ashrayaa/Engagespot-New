@@ -33,9 +33,9 @@ export default function Home() {
         <Zapier />
         <Features />
         <Fordevelopers />
-        <CommunicationLayer />
-        <Testimonials />
-        <GetStarted />
+        {/* <CommunicationLayer /> */}
+        {/* <Testimonials /> */}
+        {/* <GetStarted /> */}
         <Footer />
       </main>
     </>
