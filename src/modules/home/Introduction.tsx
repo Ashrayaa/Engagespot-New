@@ -39,7 +39,7 @@ const Introduction = (props: Props) => {
         </div> */}
       </div>
 
-      <div className="px-4 flex flex-col gap-6 justify-center items-center xl:mt-24 ">
+      <div className="px-4 flex flex-col gap-6 justify-center items-center xl:mt-20 ">
         <h4 className="text-[#FFFFFF] mt-12 sm:text-[13px] lg:text-lg text-[11px] xl:text-[20px]">
         Works with most popular languages        </h4>
         <div className="flex gap-3 mt-4 lg:gap-16">
