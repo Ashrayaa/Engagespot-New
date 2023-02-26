@@ -11,7 +11,7 @@ type Props = {};
 const Introduction = (props: Props) => {
   return (
     <>
-      <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-24">
+      <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-20">
         <div className="flex flex-col justify-center items-center gap-2 sm:gap-4 xl:gap-8">
           <h1 className="text-white text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-10 md:text-5xl lg:text-6xl xl:font-bold xl:text-7xl xl:px-44">
             Product notification infrastructure
@@ -39,7 +39,7 @@ const Introduction = (props: Props) => {
         </div> */}
       </div>
 
-      <div className="px-4 flex flex-col gap-6 justify-center items-center xl:mt-20 ">
+      <div className="px-4 flex flex-col gap-6 justify-center items-center xl:mt-16 ">
         <h4 className="text-[#FFFFFF] mt-12 sm:text-[13px] lg:text-lg text-[11px] xl:text-[20px]">
         Works with most popular languages        </h4>
         <div className="flex gap-3 mt-4 lg:gap-16">

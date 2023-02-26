@@ -13,7 +13,7 @@ type Props = {};
 
 const Fordevelopers = (props: Props) => {
   return (
-    <div className="">
+    <div className="xl:mt-32">
       <div className="flex flex-col bg-hero-pattern lg:mt-24 mt-10 bg-no-repeat bg-cover bg-center bg-fixed justify-center items-center ">
         <h2 className="text-[#E7E3E3] tracking-wider text-2xl lg:text-4xl xl:text-5xl px-10 mb-4 text-center font-semibold">
           Built for Developers
