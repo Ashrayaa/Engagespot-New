@@ -8,14 +8,14 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <>
-      <div className="flex lg:justify-between lg:items-center p-4 text-white lg:gap-24 xl:gap-52 border-none sm:bg-[#161618] sm:mx-8 sm:p-6 lg:p-4 lg:mx-10 xl:mx-36 2xl:mx-56 xl:px-6 rounded-full">
+      <div className="flex p-4 lg:justify-between lg:items-center text-white border-none sm:bg-[#161618] sm:mx-8 lg:p-2.5 lg:mx-10 xl:mx-48 2xl:mx-[260px] xl:px-6 rounded-full">
         {/* LOGO */}
         <Link href="/">
           <Image
             src={Logo}
             alt="logo"
             width="150"
-            className=" lg:pb-4"
+            className="lg:pb-4"
           />
         </Link>
 

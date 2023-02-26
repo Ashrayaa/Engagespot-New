@@ -17,7 +17,7 @@ const Section = ({
   description: string;
 }) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-3 py-10 xl:px-10 2xl:py-16 rounded-3xl bg-[#151516] px-5">
+    <div className="flex flex-col justify-center items-center gap-3 py-10 xl:px-10 2xl:py-16 rounded-3xl bg-[#151516] px-5 hover:animate-pulse">
       <Image src={iconimage} alt="Inapp" className="w-16" />
       <h2 className="text-white text-[21px] font-semibold tracking-wide">
         {title}
@@ -32,8 +32,8 @@ const Section = ({
 const Features = (props: Props) => {
   return (
     <div>
-      <div className="flex flex-col justify-center items-center -mt-[440px]">
-        <h2 className="text-[#E7E3E3] text-2xl lg:text-4xl xl:text-5xl xl:px-44 xl:-mt-24 px-3 tracking-wide mb-4 text-center font-semibold">
+      <div className="flex flex-col justify-center items-center">
+        <h2 className="text-[#E7E3E3] text-2xl lg:text-4xl xl:text-5xl xl:px-44 px-3 tracking-wide mb-4 text-center font-semibold">
           Features to build the best multi-channel notification experience
         </h2>
         <p className="text-[#C0C0C8] xl:leading-9 xl:px-80  tracking-normal leading-7 lg:text-[16px] text-[14px]  px-8 xl:text-lg xl:py-4 xl:pb-16 2xl:text-xl 2xl:font-semibold text-center">
