@@ -9,6 +9,80 @@ import Logs from "public/noti.png";
 import Template from "public/noti.png";
 import WhatsApp from "public/whatsapp.png";
 import SMS from "public/sms.png";
+import Client1 from "public/client1.svg";
+import Blog1 from "public/Blog1.svg";
+import Blog2 from "public/Blog2.svg";
+
+export const BlogList = [
+  {
+id:300,
+title:"Darkweb v2.0 is now live! Discover all the new features available",
+iconimage:Blog2
+  },
+  {
+    id:300,
+    title:"Code refactoring best practices: When and how to do it",
+    iconimage:Blog1
+      },
+]
+
+export const TestimonialList = [
+  {
+    id: 200,
+    iconimage: Client1,
+    title: "“The best code-editor”",
+    description:
+      "Lorem ipsum dolor sit amet consectetur cillum adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet.",
+    name: "John Carter",
+    designation: "Back-End developer",
+  },
+  {
+    id: 201,
+    iconimage: Client1,
+    title: "“The greatest IDE out there”",
+    description:
+      "Lorem ipsum dolor sit amet consectetur cillum adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet.",
+    name: "John Carter",
+    designation: "Systems Engineer",
+  },
+  {
+    id: 202,
+    iconimage: Client1,
+    title: "“Darkweb is an excellent tool”",
+    description:
+      "Lorem ipsum dolor sit amet consectetur cillum adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet.",
+    name: "John Carter",
+    designation: "Web developer",
+  },
+  {
+    id: 203,
+    iconimage: Client1,
+    title: "“The only tool I need”",
+    description:
+      "Lorem ipsum dolor sit amet consectetur cillum adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet.",
+    name: "John Carter",
+    designation: "System analyst",
+  },
+  {
+    id: 204,
+    iconimage: Client1,
+    title: "“The best tool for my team”",
+    description:
+      "Lorem ipsum dolor sit amet consectetur cillum adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet.",
+    name: "John Carter",
+    designation: "Tech Lead",
+  },
+  {
+    id: 205,
+    iconimage: Client1,
+    title: "“My favorite code editor”",
+    description:
+      "Lorem ipsum dolor sit amet consectetur cillum adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet.",
+    name: "John Carter",
+    designation: "Database administrator",
+  },
+  
+];
 
 export const Featurelist = [
   {

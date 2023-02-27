@@ -12,6 +12,7 @@ import Testimonials from "../src/modules/home/Testimonials";
 import GetStarted from "../src/modules/home/GetStarted";
 import Footer from "../src/components/footer/Footer";
 import { useRouter } from 'next/router'
+import Blog from "../src/modules/home/Blog";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,7 +35,8 @@ export default function Home() {
         <Features />
         <Fordevelopers />
         {/* <CommunicationLayer /> */}
-        {/* <Testimonials /> */}
+        <Testimonials />
+        <Blog/>
         {/* <GetStarted /> */}
         <Footer />
       </main>
