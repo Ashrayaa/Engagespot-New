@@ -12,19 +12,97 @@ import SMS from "public/sms.png";
 import Client1 from "public/client1.svg";
 import Blog1 from "public/Blog1.svg";
 import Blog2 from "public/Blog2.svg";
+import Twilio from "/public/twilio.svg";
+import Amazon from "/public/amazon.svg";
+
+
+export const ProvidersList = [
+  {
+    id: 400,
+    iconimage: Amazon,
+    title: "Twilio",
+    service: "Email",
+    description:
+      "Leverage the email service that customer-first brands trust for reliable inbox delivery at scale.",
+  },
+  {
+    id: 401,
+    iconimage: Amazon,
+    title: "Amazon SES",
+    service: "Email",
+    description:
+      "Leverage the email service that customer-first brands trust for reliable inbox delivery at scale.",
+  },
+  {
+    id: 402,
+    iconimage: Amazon,
+    title: "Mailgun",
+    service: "Email",
+    description:
+      "Leverage the email service that customer-first brands trust for reliable inbox delivery at scale.",
+  },
+  {
+    id: 403,
+    iconimage: Amazon,
+    title: "Sendgrid",
+    service: "Email",
+    description:
+      "Leverage the email service that customer-first brands trust for reliable inbox delivery at scale.",
+  },
+  {
+    id: 404,
+    iconimage: Amazon,
+    title: "Message bird",
+    service: "Email",
+    description:
+      "Leverage the email service that customer-first brands trust for reliable inbox delivery at scale.",
+  },
+  {
+    id: 405,
+    iconimage: Amazon,
+    title: "Sinch",
+    service: "Email",
+    description:
+      "Leverage the email service that customer-first brands trust for reliable inbox delivery at scale.",
+  },
+  {
+    id: 406,
+    iconimage: Amazon,
+    title: "Karix",
+    service: "Email",
+    description:
+      "Leverage the email service that customer-first brands trust for reliable inbox delivery at scale.",
+  },
+  {
+    id: 407,
+    iconimage: Amazon,
+    title: "Gupshup",
+    service: "Email",
+    description:
+      "Leverage the email service that customer-first brands trust for reliable inbox delivery at scale.",
+  },
+  {
+    id: 408,
+    iconimage: Amazon,
+    title: "Firebase",
+    service: "Email",
+    description:
+      "Leverage the email service that customer-first brands trust for reliable inbox delivery at scale.",
+  },
+];
 
 export const BlogList = [
   {
-id:300,
-title:"Darkweb v2.0 is now live! Discover all the new features available",
-iconimage:Blog2
+    id: 300,
+    title: "Darkweb v2.0 is now live! Discover all the new features available",
+    iconimage: Blog2,
   },
   {
-    id:300,
-    title:"Code refactoring best practices: When and how to do it",
-    iconimage:Blog1
-      },
-]
+    id: 300,
+    title: "Code refactoring best practices: When and how to do it",
+    iconimage: Blog1,
+  },
+];
 
 export const TestimonialList = [
   {
@@ -81,7 +159,6 @@ export const TestimonialList = [
     name: "John Carter",
     designation: "Database administrator",
   },
-  
 ];
 
 export const Featurelist = [

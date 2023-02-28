@@ -6,6 +6,9 @@ type Props = {};
 
 const Integration_intro = (props: Props) => {
   return (
+    <>
+  
+
     <div className="relative z-0">
       <div className="flex justify-center items-center">
         <Image src={Intro} alt="intro image" className="lg:-mt-20" />
@@ -22,6 +25,7 @@ const Integration_intro = (props: Props) => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 export default Integration_intro;
