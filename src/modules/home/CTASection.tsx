@@ -4,7 +4,7 @@ import CTA from "public/ctaimage.svg";
 const CTASection = () => {
   return (
     <>
-      <section className="flex flex-col md:flex-row md:justify-between md:gap-12 border rounded-3xl bg-[#151516] mt-20 mx-6 lg:mx-8 xl:mx-24">
+      <section className="flex flex-col md:flex-row md:justify-between md:gap-12 rounded-3xl bg-[#151516] mt-20 mx-6 lg:mx-8 xl:mx-24">
         <div className="flex p-8 xl:pl-14 xl:pt-20 2xl:pt-24 flex-col gap-4 xl:gap-6 text-center md:text-left md:w-[2500px]">
           <h2 className="text-[#E7E3E3] sm:px-14 md:px-0 text-2xl md:text-3xl lg:text-[38px] lg:leading-normal xl:text-5xl tracking-wide font-bold">
             Build your first notification in minutes
@@ -21,7 +21,7 @@ const CTASection = () => {
         <Image
             src={CTA}
             alt="cta"
-            className=""
+            className="hidden md:flex"
           />
         </div>
       </section>
