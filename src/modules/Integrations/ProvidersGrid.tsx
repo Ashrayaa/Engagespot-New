@@ -33,22 +33,35 @@ const Section = ({
 };
 
 const ProvidersGrid = () => {
-  return <><div className="xl:mt-24">
-  <div className="flex flex-col justify-center items-center">
-    <div className="lg:grid lg:grid-flow-row lg:grid-cols-3 sm:grid  sm:grid-cols-1 md:grid-cols-2 lg:gap-4 flex flex-col gap-4 px-6 w-full lg:px-12 xl:px-32 2xl:px-36 mt-8 ">
-      {ProvidersList.map((provider: { id: React.Key | null | undefined; title: string; description: string; iconimage: string; service: string; }) => {
-        return (
-          <Section
-                key={provider.id}
-                title={provider.title}
-                description={provider.description}
-                id={""}
-                iconimage={provider.iconimage} service={provider.service}            
-          />
-        );
-      })}
-    </div>
-  </div>
-</div></>;
+  return (
+    <>
+      <div className="xl:mt-24">
+        <div className="flex flex-col justify-center items-center">
+          <div className="lg:grid lg:grid-flow-row lg:grid-cols-3 sm:grid  sm:grid-cols-1 md:grid-cols-2 lg:gap-4 flex flex-col gap-4 px-6 w-full lg:px-12 xl:px-32 2xl:px-36 mt-8 ">
+            {ProvidersList.map(
+              (provider: {
+                id: React.Key | null | undefined;
+                title: string;
+                description: string;
+                iconimage: string;
+                service: string;
+              }) => {
+                return (
+                  <Section
+                    key={provider.id}
+                    title={provider.title}
+                    description={provider.description}
+                    id={""}
+                    iconimage={provider.iconimage}
+                    service={provider.service}
+                  />
+                );
+              }
+            )}
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 export default ProvidersGrid;

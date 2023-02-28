@@ -1,14 +1,15 @@
 import React from "react";
 import Head from "next/head";
+
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
-import IntegrationPage from "@/src/modules/Integrations/IntergrationPage";
-import ProvidersGrid from "@/src/modules/Integrations/ProvidersGrid";
-import CTASection from "@/src/modules/home/CTASection";
+import AboutUsIntro from "@/src/modules/Aboutus/AboutUsIntro";
+import AboutUsDetail from "@/src/modules/Aboutus/AboutUsDetail";
+import OurValues from "@/src/modules/Aboutus/OurValues";
 
 type Props = {};
 
-const Integrations = (props: Props) => {
+const AboutUs = (props: Props) => {
   return (
     <>
       <Head>
@@ -22,12 +23,12 @@ const Integrations = (props: Props) => {
       </Head>
       <main className="bg-black sm:pt-8">
         <Header />
-        <IntegrationPage/>
-        <ProvidersGrid/>
-        <CTASection/>
+        <AboutUsIntro />
+        <AboutUsDetail />
+        <OurValues />
         <Footer />
       </main>
     </>
   );
 };
-export default Integrations;
+export default AboutUs;

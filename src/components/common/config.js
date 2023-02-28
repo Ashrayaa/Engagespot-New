@@ -15,6 +15,46 @@ import Blog2 from "public/Blog2.svg";
 import Twilio from "/public/twilio.svg";
 import Amazon from "/public/amazon.svg";
 
+export const TeamList = [
+  {
+    id:500,
+    profileimage:Client1,
+    name:"Mary Carter",
+    designation:"Co-founder & CEO",
+  },
+  {
+    id:501,
+    profileimage:Client1,
+    name:"Mary Carter",
+    designation:"Co-founder & CEO",
+  },
+  {
+    id:502,
+    profileimage:Client1,
+    name:"Mary Carter",
+    designation:"Co-founder & CEO",
+  },
+  {
+    id:503,
+    profileimage:Client1,
+    name:"Mary Carter",
+    designation:"Co-founder & CEO",
+  },
+  {
+    id:504,
+    profileimage:Client1,
+    name:"Mary Carter",
+    designation:"Co-founder & CEO",
+  },
+  {
+    id:505,
+    profileimage:Client1,
+    name:"Mary Carter",
+    designation:"Co-founder & CEO",
+  },
+ 
+
+]
 
 export const ProvidersList = [
   {

@@ -81,6 +81,7 @@ The complete notification infrastructure for your product            </p>
                 Company
               </h2>
               <ul className="text-[#9E9E9E] text-[10px] xl:text-[16px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
+               <Link href="/aboutus"> <li>About Us</li></Link>
                 <li>Blog</li>
                 <li>Discord</li>
                 <li>Doc</li>
