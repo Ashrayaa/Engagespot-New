@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Zapie from "public/zapier.png";
+import Zapie from "public/zapier.svg";
 import Zapier2 from "public/zapier2.svg";
 
 type Props = {};
@@ -23,7 +23,7 @@ const Zapier = (props: Props) => {
         <Image
           src={Zapie}
           alt="zapier"
-          className="w-96 lg:hidden -mt-[440px]" 
+          className="w-96 lg:hidden px-5 my-12" 
         />
       </div>
 

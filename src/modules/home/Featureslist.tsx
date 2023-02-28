@@ -41,7 +41,7 @@ const Features = (props: Props) => {
           scratch. Just integrate our SDKs and APIs to build a scalable
           notification system for your product.
         </p>
-        <div className="lg:grid lg:grid-flow-row lg:grid-cols-3 sm:grid-cols-1 lg:gap-4 flex flex-col gap-4 px-6 w-full lg:px-12 xl:px-32 2xl:px-36 mt-8 ">
+        <div className="lg:grid lg:grid-flow-row lg:grid-cols-3 sm:grid  sm:grid-cols-1 md:grid-cols-2 lg:gap-4 flex flex-col gap-4 px-6 w-full lg:px-12 xl:px-32 2xl:px-36 mt-8 ">
           {Featurelist.map((feature) => {
             return (
               <Section

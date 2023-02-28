@@ -11,8 +11,9 @@ import CommunicationLayer from "../src/modules/home/CommunicationLayer";
 import Testimonials from "../src/modules/home/Testimonials";
 import GetStarted from "../src/modules/home/GetStarted";
 import Footer from "../src/components/footer/Footer";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 import Blog from "../src/modules/home/Blog";
+import CTASection from "../src/modules/home/CTASection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,10 +35,9 @@ export default function Home() {
         <Zapier />
         <Features />
         <Fordevelopers />
-        {/* <CommunicationLayer /> */}
         <Testimonials />
-        <Blog/>
-        {/* <GetStarted /> */}
+        <Blog />
+        <CTASection />
         <Footer />
       </main>
     </>

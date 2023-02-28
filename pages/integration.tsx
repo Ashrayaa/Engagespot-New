@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
 import Build from "src/components/common/Build";
