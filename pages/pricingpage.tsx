@@ -9,7 +9,7 @@ import Payahead from "@/src/modules/Pricing/PayAhead";
 
 type Props = {};
 
-const pricing = (props: Props) => {
+const pricingpage = (props: Props) => {
   return (
     <>
       <Head>
@@ -32,4 +32,4 @@ const pricing = (props: Props) => {
     </>
   );
 };
-export default pricing;
+export default pricingpage;
