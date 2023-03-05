@@ -39,7 +39,7 @@ const Blog = () => {
           reprehenderit.
         </p>
         <div className="lg:grid lg:grid-flow-row lg:grid-cols-2 sm:grid-cols-1 sm:grid md:grid-cols-2 lg:gap-6 flex flex-col gap-4 px-6 w-full lg:px-12 xl:px-56 2xl:px-72 mt-5 ">
-          {BlogList.map((blog) => {
+          {BlogList.slice(0, 2).map((blog) => {
             return (
               <Section
                 key={blog.id}
