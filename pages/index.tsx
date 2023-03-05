@@ -14,6 +14,7 @@ import Footer from "../src/components/footer/Footer";
 import { useRouter } from "next/router";
 import Blog from "../src/modules/home/Blog";
 import CTASection from "../src/modules/home/CTASection";
+import Newsletter from "@/src/components/common/Newsletter";
 
 const inter = Inter({ subsets: ["latin"] });
 

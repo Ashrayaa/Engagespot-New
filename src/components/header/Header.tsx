@@ -11,12 +11,7 @@ const Header = (props: Props) => {
       <div className="flex p-4 lg:justify-between lg:items-center text-white border-none sm:bg-[#161618] sm:mx-8 lg:p-2.5 lg:mx-10 xl:mx-48 2xl:mx-[260px] xl:px-6 rounded-full">
         {/* LOGO */}
         <Link href="/">
-          <Image
-            src={Logo}
-            alt="logo"
-            width="150"
-            className="lg:pb-4"
-          />
+          <Image src={Logo} alt="logo" width="150" className="lg:pb-4" />
         </Link>
 
         {/* Menu */}
@@ -32,7 +27,9 @@ const Header = (props: Props) => {
               <li className="hover:text-[#aa4875]">Integrations</li>
             </Link>
             <li className="hover:text-[#aa4875]">Documentation</li>
-            <li className="hover:text-[#aa4875]">Blog</li>
+            <Link href="/blogs">
+              <li className="hover:text-[#aa4875]">Blog</li>
+            </Link>
           </ul>
           <button className=" rounded-full font-semibold p-4 bg-white hover:bg-[#aa4875] text-[#0D0D0E] hover:text-white transition duration-300 transform hover:scale-110">
             Get Started

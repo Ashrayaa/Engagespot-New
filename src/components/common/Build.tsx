@@ -1,14 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Intro from "public/build.png";
-import Yolkart from "public/yolkart.png";
-import Docmentor from "public/docmentor.png";
-import Sameday from "public/sameday.png";
 import Link from "next/link";
 
 type Props = {};
 
-const Introduction = (props: Props) => {
+const Build = (props: Props) => {
   return (
     <>
       <div className="bg-gradient-to-r from-[#FFFFFF] to-[#9a9797] via-[#8D8D8D] p-[0.5px] rounded-xl xl:m-12  mx-4">
@@ -38,4 +35,4 @@ const Introduction = (props: Props) => {
     </>
   );
 };
-export default Introduction;
+export default Build;

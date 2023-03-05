@@ -12,6 +12,10 @@ import SMS from "public/sms.png";
 import Client1 from "public/client1.svg";
 import Blog1 from "public/Blog1.svg";
 import Blog2 from "public/Blog2.svg";
+import Blog3 from "public/Blog3.svg";
+import Blog4 from "public/Blog4.svg";
+import Blog5 from "public/Blog5.svg";
+import Blog6 from "public/Blog6.svg";
 import Twilio from "/public/twilio.svg";
 import Amazon from "/public/amazon.svg";
 export const ValuesList = [
@@ -178,10 +182,30 @@ export const BlogList = [
     iconimage: Blog2,
   },
   {
-    id: 300,
+    id: 301,
     title: "Code refactoring best practices: When and how to do it",
     iconimage: Blog1,
   },
+  {
+    id:302,
+    title:"7 programming languages you should pay attention to in 2023",
+    iconimage:Blog3,
+  },
+  {
+    id:303,
+    title:"How to learn programming: 101 Guide for Beginner to know",
+    iconimage:Blog4,
+  },
+  {
+    id:304,
+    title:"10 best programming books you should give to your dev team",
+    iconimage:Blog5,
+  },
+  {
+    id:305,
+    title:"Great development apps for programmers and product developers",
+    iconimage:Blog6,
+  }
 ];
 
 export const TestimonialList = [
