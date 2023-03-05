@@ -6,8 +6,6 @@ import Pricingintro from "src/modules/Pricing/Pricingintro";
 import PayAsYouGo from "src/modules/Pricing/PayAsYouGo";
 import PayAhead from "src/modules/Pricing/PayAhead";
 
-
-
 type Props = {};
 
 const Pricing = (props: Props) => {
@@ -24,9 +22,9 @@ const Pricing = (props: Props) => {
       </Head>
       <main className="bg-black sm:pt-8">
         <Header />
-        <Pricingintro/>
+        {/* <Pricingintro/>
         <PayAsYouGo/>
-        <PayAhead/>
+        <PayAhead/> */}
         <Footer />
       </main>
     </>
