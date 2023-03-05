@@ -2,14 +2,12 @@ import React from "react";
 import Head from "next/head";
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
-import dynamic from "next/dynamic";
+import Pricingintro from "@/src/modules/Pricing/Pricingintro";
 import PayAsYouGo from "@/src/modules/Pricing/PayAsYouGo";
 import PayAhead from "@/src/modules/Pricing/PayAhead";
-import Pricingintro from "@/src/modules/Pricing/Pricingintro";
+
 
 type Props = {};
-// const PayAsYouGo = dynamic(() => import("@/src/modules/Pricing/payasyougo"));
-// const PayAhead = dynamic(() => import("@/src/modules/Pricing/PayAhead"));
 
 const Pricing = (props: Props) => {
   return (
