@@ -1,3 +1,4 @@
+import RangeBar from "@/src/components/common/RangeBar";
 import React from "react";
 
 const PayAhead = () => {
@@ -75,12 +76,17 @@ const PayAhead = () => {
               <div className="bg-gradient-to-br from-[#7662AB] to-[#B261A6] rounded-xl text-white flex flex-col gap-2 p-6 px-10 justify-center items-center">
                 <h5 className="text-2xl font-semibold">Total Cost</h5>
                 <h1 className="font-extrabold text-4xl">$149.00</h1>
-                <p className="font-medium text-center text-[13px]">You save $41 compared to on-demanded price</p>
+                <p className="font-medium text-center text-[13px]">
+                  You save $41 compared to on-demanded price
+                </p>
               </div>
             </div>
 
-            <div>
+            <div className="flex flex-col justify-center text-center items-center">
               <h4>How many monthly active users?</h4>
+              <div className="container mx-auto px-4">
+                <RangeBar />
+              </div>
             </div>
           </div>
         </div>
