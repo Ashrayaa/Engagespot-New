@@ -2,9 +2,9 @@ import React from "react";
 import Head from "next/head";
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
-import Pricingintro from "@/src/modules/Pricing/Pricingintro";
-import PayAsYouGo from "@/src/modules/Pricing/PayAsYouGo";
-import PayAhead from "@/src/modules/Pricing/PayAhead";
+import Pricingintro from "src/modules/Pricing/Pricingintro";
+import PayAsYouGo from "src/modules/Pricing/PayAsYouGo";
+import PayAhead from "src/modules/Pricing/PayAhead";
 
 
 
