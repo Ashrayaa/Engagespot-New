@@ -1,10 +1,8 @@
 import React from "react";
-import Image from "next/image";
-import Intro from "public/integration_bg.svg";
 
 type Props = {};
 
-const Pricingintro = (props: Props) => {
+const Pricingintro = () => {
   return (
     <>
       <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-20">
