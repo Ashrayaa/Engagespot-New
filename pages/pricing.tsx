@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
-import Pricingintro from "@/src/modules/Pricing/Pricingintro";
+
 import PayAsYouGo from "@/src/modules/Pricing/PayAsYouGo";
 import Payahead from "@/src/modules/Pricing/PayAhead";
 
@@ -23,12 +23,10 @@ const Pricing = (props: Props) => {
       </Head>
       <main className="bg-black sm:pt-8">
         <Header />
-        <Pricingintro/>
+        
         <PayAsYouGo/>
         <Payahead/>
-        {/* <Pricingintro/>
-        <PayAsYouGo/>
-        <PayAhead/> */}
+      
         <Footer />
       </main>
     </>
