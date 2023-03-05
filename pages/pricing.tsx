@@ -2,10 +2,10 @@ import React from "react";
 import Head from "next/head";
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
-import Pricingintro from "src/modules/Pricing/Pricingintro";
 import dynamic from "next/dynamic";
 import PayAsYouGo from "@/src/modules/Pricing/PayAsYouGo";
 import PayAhead from "@/src/modules/Pricing/PayAhead";
+import Pricingintro from "@/src/modules/Pricing/Pricingintro";
 
 type Props = {};
 // const PayAsYouGo = dynamic(() => import("@/src/modules/Pricing/payasyougo"));
@@ -25,7 +25,7 @@ const Pricing = (props: Props) => {
       </Head>
       <main className="bg-black sm:pt-8">
         <Header />
-        <Pricingintro />
+        <Pricingintro/>
         <PayAsYouGo/>
         <PayAhead/>
         <Footer />
