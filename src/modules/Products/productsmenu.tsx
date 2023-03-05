@@ -12,7 +12,7 @@ type Props = {};
 const ProductMenu = (props: Props) => {
   return (
     <>
-      <div className="bg-gradient-to-br from-[#FFFFFF] to-[#1a1a1a] via-[#8D8D8D] p-[0.5px] rounded-xl mx-[400px]">
+      <div className="bg-[#161618] p-[0.5px] rounded-xl mx-[400px]">
         <div className="grid grid-flow-row grid-cols-2 gap-6 py-10 lg:py-6 px-4 rounded-xl bg-gradient-to-tl from-[#1c1b1b] to-[#323131] via-[#1a1a1a]">
           <div className="flex gap-4 items-start ">
             <Image src={Multi} alt="In-app notifications" className="w-20" />

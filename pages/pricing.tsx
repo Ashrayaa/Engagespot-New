@@ -1,14 +1,15 @@
 import React from "react";
 import Head from "next/head";
-
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
-import Build from "src/components/common/Build";
-import Integration_intro from "src/modules/Integrations/Integration_intro";
-import Integration_body from "src/modules/Integrations/Integration_body";
-//import Pricingintro from "src/modules/Pricing/Pricingintro";
+import Pricingintro from "src/modules/Pricing/Pricingintro";
+import dynamic from "next/dynamic";
+import PayAsYouGo from "@/src/modules/Pricing/PayAsYouGo";
+import PayAhead from "@/src/modules/Pricing/PayAhead";
 
 type Props = {};
+// const PayAsYouGo = dynamic(() => import("@/src/modules/Pricing/payasyougo"));
+// const PayAhead = dynamic(() => import("@/src/modules/Pricing/PayAhead"));
 
 const Pricing = (props: Props) => {
   return (
@@ -22,10 +23,11 @@ const Pricing = (props: Props) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/Logo.png" />
       </Head>
-      <main className="bg-black lg:bg-[#191818] xl:bg-gradient-to-tl from-[#0D0D0D] to-[#2b2a2a]">
+      <main className="bg-black sm:pt-8">
         <Header />
-        {/* <Pricingintro /> */}
-        <Build />
+        <Pricingintro />
+        <PayAsYouGo/>
+        <PayAhead/>
         <Footer />
       </main>
     </>
