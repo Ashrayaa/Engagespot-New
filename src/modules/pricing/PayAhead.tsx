@@ -82,7 +82,7 @@ const PayAhead = () => {
               </div>
             </div>
 
-            <div className="flex flex-col justify-center text-center items-center">
+            <div className="flex flex-col justify-center text-center items-center gap-4">
               <h4>How many monthly active users?</h4>
               <div className="container mx-auto px-4">
                 <RangeBar />
