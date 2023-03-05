@@ -1,7 +1,7 @@
 import RangeBar from "@/src/components/common/RangeBar";
 import React from "react";
-
-const PayAhead = () => {
+type Props = {};
+const PayAhead = (props: Props) => {
   return (
     <>
       <div className="bg-[#151516] text-white rounded-3xl mt-12 lg:mt-24 p-4 mx-4 sm:mx-8 sm:gap-10 md:p-6 2xl:mx-44 xl:mx-44">
