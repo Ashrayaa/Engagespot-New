@@ -14,6 +14,46 @@ import Blog1 from "public/Blog1.svg";
 import Blog2 from "public/Blog2.svg";
 import Twilio from "/public/twilio.svg";
 import Amazon from "/public/amazon.svg";
+export const ValuesList = [
+  {
+    id:600,
+    iconimage:Amazon,
+    title:"Innovation",
+    description:"Vel mi enim pellentesque tincidunt ridiculus sed eget libero odio dictum habitasse vitae morbi eros ut sed."
+  },
+  {
+    id:601,
+    iconimage:Amazon,
+    title:"Commitment",
+    description:"Vel mi enim pellentesque tincidunt ridiculus sed eget libero odio dictum habitasse vitae morbi eros ut sed."
+  },
+  {
+    id:601,
+    iconimage:Amazon,
+    title:"Teamwork",
+    description:"Vel mi enim pellentesque tincidunt ridiculus sed eget libero odio dictum habitasse vitae morbi eros ut sed."
+  },
+  {
+    id:601,
+    iconimage:Amazon,
+    title:"Ownership",
+    description:"Vel mi enim pellentesque tincidunt ridiculus sed eget libero odio dictum habitasse vitae morbi eros ut sed."
+  },
+  {
+    id:601,
+    iconimage:Amazon,
+    title:"Openness",
+    description:"Vel mi enim pellentesque tincidunt ridiculus sed eget libero odio dictum habitasse vitae morbi eros ut sed."
+  },
+  {
+    id:601,
+    iconimage:Amazon,
+    title:"Growth",
+    description:"Vel mi enim pellentesque tincidunt ridiculus sed eget libero odio dictum habitasse vitae morbi eros ut sed."
+  },
+
+
+]
 
 export const TeamList = [
   {
