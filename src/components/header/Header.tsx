@@ -20,7 +20,7 @@ const Header = (props: Props) => {
             <Link href="/products">
               <li className="hover:text-[#aa4875]">Products</li>
             </Link>
-            <Link href="/pricing">
+            <Link href="/pricingpage">
               <li className="hover:text-[#aa4875]">Pricing</li>
             </Link>
             <Link href="/integration">

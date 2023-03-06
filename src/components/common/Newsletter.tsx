@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Newsletterimg from "public/newsletter.svg";
+import Newsletterimg from "public/newsletter.png";
 import Link from "next/link";
 
 type Props = {};
@@ -18,10 +18,10 @@ const Newsletter = (props: Props) => {
           <div className="relative flex justify-end items-center">
             <input
               type="email"
-              className="xl:w-[600px] lg:w-[500px] w-[290px] p-6 md:p-8 rounded-full outline-none outline-[#aa4875] text-[#b8b8bf] bg-[#212123] font-medium  lg:text-2xl"
+              className="xl:w-[600px] lg:w-[500px] w-[290px] p-6  rounded-full outline-none focus:outline-[#aa4875] text-[#b8b8bf] bg-[#212123] font-medium  lg:text-2xl"
               placeholder="Enter your email" required
             />
-            <button className="absolute mr-2 lg:mr-4 md:items-start rounded-full font-semibold p-4 lg:p-5 lg:px-6 lg:text-xl bg-white hover:bg-[#aa4875] text-[#0D0D0E] hover:text-white transition duration-300 transform hover:scale-110">
+            <button className="absolute mr-2 lg:mr-3 md:items-start rounded-full font-semibold p-4 lg:p-5 lg:px-6 lg:text-xl bg-white hover:bg-[#aa4875] text-[#0D0D0E] hover:text-white transition duration-300 transform hover:scale-110">
               Subscribe
             </button>
           </div>

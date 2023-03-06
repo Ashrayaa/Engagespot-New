@@ -2,14 +2,14 @@ import React from "react";
 import Head from "next/head";
 import Footer from "src/components/footer/Footer";
 import Header from "src/components/header/Header";
-import Pricingintro from "@/pages/Pricingintro";
-import PayAsYouGo from "@/pages/PayAsYouGo";
-import Payahead from "@/pages/Payahead";
-
+import CTASection from "@/src/modules/home/CTASection";
+import Blogintro from "@/src/modules/Blogs/Blogintro";
+import BlogsGrid from "@/src/modules/Blogs/BlogsGrid";
+import Newsletter from "@/src/components/common/Newsletter";
 
 type Props = {};
 
-const pricingpage = (props: Props) => {
+const Blogpost = (props: Props) => {
   return (
     <>
       <Head>
@@ -23,13 +23,12 @@ const pricingpage = (props: Props) => {
       </Head>
       <main className="bg-black sm:pt-8">
         <Header />
-        <Pricingintro/>
-        <PayAsYouGo/>
-        <Payahead/>
-      
+        <Blogintro/>
+        <BlogsGrid/>
+        <Newsletter/>
         <Footer />
       </main>
     </>
   );
 };
-export default pricingpage;
+export default Blogpost;

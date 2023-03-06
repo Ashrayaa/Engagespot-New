@@ -63,7 +63,7 @@ const Payahead = () => {
               </div>
             </div>
 
-            <div className="flex flex-col md:flex-row md:justify-center md:gap-10">
+            <div className="flex flex-col md:flex-row md:justify-center md:gap-10 2xl:gap-36">
               <div className="flex flex-col gap-4 lg:w-[500px]">
                 <h5>Notification triggers per month</h5>
                 <p className="">
