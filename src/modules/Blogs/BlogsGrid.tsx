@@ -18,7 +18,7 @@ const Section = ({
     <div className="flex flex-col justify-center items-start gap-3   rounded-3xl bg-[#151516]  hover:animate-none ">
       <Image src={iconimage} alt="Inapp" className="rounded-t-3xl" />
 
-      <h2 className="text-white text-2xl lg:text-3xl font-semibold tracking-wide p-6 px-14 hover:text-[#aa4875]">
+      <h2 className="text-white text-2xl lg:text-3xl 2xl:text-4xl font-semibold tracking-wide p-6 px-14 hover:text-[#aa4875]">
         {title}
       </h2>
       <h5 className="text-sm text-white px-14 pb-4">Read more</h5>
@@ -34,7 +34,7 @@ const BlogsGrid = () => {
           Latest posts{" "}
         </h2>
 
-        <div className="lg:grid lg:grid-flow-row lg:grid-cols-2 2xl:grid-cols-3 sm:grid-cols-1 sm:grid md:grid-cols-2 lg:gap-6 flex flex-col gap-4 px-6 w-full lg:px-6 xl:px-28 2xl:px-8 mt-5 ">
+        <div className="lg:grid lg:grid-flow-row lg:grid-cols-2 2xl:grid-cols- sm:grid-cols-1 sm:grid md:grid-cols-2 lg:gap-6 flex flex-col gap-4 px-6 w-full lg:px-6 xl:px-28 2xl:px-40 2xl:gap-12 mt-5 ">
           {BlogList.map((blog) => {
             return (
               <Section
