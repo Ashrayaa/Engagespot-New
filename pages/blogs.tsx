@@ -62,11 +62,10 @@ const Blogs = ({ result }: Props) => {
             </h2>
 
             <div className="lg:grid lg:grid-flow-row lg:grid-cols-2 2xl:grid-cols- sm:grid-cols-1 sm:grid md:grid-cols-2 lg:gap-6 flex flex-col gap-4 px-6 w-full lg:px-6 xl:px-28 2xl:px-40 2xl:gap-12 mt-5 ">
-              <div className="flex flex-col justify-center items-start gap-3   rounded-3xl bg-[#151516]  hover:animate-none ">
                 {result && result.map((data: Result) => {
                   return (
                     // eslint-disable-next-line react/jsx-key
-                    <div>
+                    <div className="flex flex-col justify-center items-start gap-3   rounded-3xl bg-[#151516]  hover:animate-none ">
                       <Link href={`/blog/${data.id}`}>
                         {/* <Image
                           className="rounded-t-3xl"
@@ -87,7 +86,6 @@ const Blogs = ({ result }: Props) => {
                     </div>
                   );
                 })}
-              </div>
             </div>
             <button className="mt-10 rounded-full font-semibold p-4 xl:px-8 xl:text-2xl bg-white hover:bg-[#aa4875] text-[#0D0D0E] hover:text-white transition duration-300 transform hover:scale-110">
               Next
