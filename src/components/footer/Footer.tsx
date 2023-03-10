@@ -25,7 +25,8 @@ const Footer = (props: Props) => {
               </Link>
             </div>
             <p className="text-[#B4B4B4] xl:tracking-wide xl:leading-8 text-xs xl:text-[17px] mx-4">
-The complete notification infrastructure for your product            </p>
+              The complete notification infrastructure for your product{" "}
+            </p>
             <div className="flex gap-5 mx-4 lg:mx-0">
               <Link href="/">
                 <Image
@@ -68,9 +69,13 @@ The complete notification infrastructure for your product            </p>
                 Product
               </h2>
               <ul className="text-[#9E9E9E] text-[10px] xl:text-[16px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
-                <Link href="/pricingpage"><li>Pricing</li></Link>
+                <Link href="/pricingpage">
+                  <li>Pricing</li>
+                </Link>
                 <li>React Notifications</li>
-                <li>Notification UI kit</li>
+                <Link href="/uikit">
+                  <li>Notification UI kit</li>
+                </Link>
                 <li>Features</li>
                 <li>Disposabel email Detector</li>
               </ul>
@@ -81,9 +86,16 @@ The complete notification infrastructure for your product            </p>
                 Company
               </h2>
               <ul className="text-[#9E9E9E] text-[10px] xl:text-[16px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
-               <Link href="/aboutus"> <li>About Us</li></Link>
-               <Link href="/blog"><li>Blog</li></Link>
-               <Link href="/singlepage"><li>Blog post</li></Link>
+                <Link href="/aboutus">
+                  {" "}
+                  <li>About Us</li>
+                </Link>
+                <Link href="/blog">
+                  <li>Blog</li>
+                </Link>
+                <Link href="/singlepage">
+                  <li>Blog post</li>
+                </Link>
                 <li>Discord</li>
                 <li>Doc</li>
                 <li>Roadmap</li>

@@ -7,6 +7,7 @@ import Header from "src/components/header/Header";
 import Footer from "src/components/footer/Footer";
 import Build from "src/components/common/Build";
 import Code from "public/codewidth.svg";
+import CTASection from "@/src/modules/home/CTASection";
 
 const Multichannels = () => {
   return (
@@ -121,7 +122,7 @@ const Multichannels = () => {
           </button>
         </div>
       </section>
-
+<CTASection/>
       <Footer />
     </div>
   );

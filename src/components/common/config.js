@@ -344,3 +344,46 @@ export const Featurelist = [
       "Get access to logs from providers to debug cross-channel delivery and analyze performance.",
   },
 ];
+
+export const UIkitList = [
+  {
+    id: 800,
+    iconimage: Inapp,
+    title: "Realtime Delivery",
+    description: "Our Notification UI component includes realtime connectivity to ensure notifications are received as soon as they're delivered from backend",
+  },
+  {
+    id: 801,
+    iconimage: Email,
+    title: "Fully Customizable",
+    description: "Our React notification component can be customized to match your app's look and feel. Every color, images and text can be changed to suit your needs",
+  },
+  {
+    id: 802,
+    iconimage: Search,
+    title: "Unread Count & Badge",
+    description: "Includes an unread count bubble that updates in realtime when a notification is received or read by users",
+
+    
+  },
+  {
+    id: 803,
+    iconimage: Slack,
+    title: "Mobile Responsive",
+    description: "We've made the Notification Inbox component mobile responsive so your app will work on both desktop and mobile browsers. You can even use it in your PWA",
+  },
+  {
+    id: 804,
+    iconimage: Notification,
+    title: "Event Listeners",
+    description:
+      "Add custom actions in your code by listening to different event listeners (Eg: notification_received, notification_clicked etc) that you can subscribe",
+  },
+  {
+    id: 805,
+    iconimage: Mobile,
+    title: "Easy to Integrate",
+    description: "Add notification ui component to your app in minutes using our React component, or CDN Javascript library for normal HTML + Javascript apps",
+  },
+
+];
