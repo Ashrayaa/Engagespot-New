@@ -8,7 +8,7 @@ import Template from "public/megamenu-products/notif-templates.svg";
 import Batched from "public/megamenu-products/batched.svg";
 import Unified from "public/megamenu-products/unifiedlogging.svg";
 import Preference from "public/megamenu-products/preferrence.svg";
-import ProductMenu from "@/src/modules/Products/productsmenu";
+import ProductMenu from "@/pages/megamenu";
 
 type Props = {};
 

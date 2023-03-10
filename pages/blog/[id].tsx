@@ -7,6 +7,7 @@ import { marked } from "marked";
 import fm from "front-matter";
 import Header from "@/src/components/header/Header";
 import Footer from "@/src/components/footer/Footer";
+import { Buffer } from "buffer";
 
 interface BlogPostProps {
   image: string;
@@ -56,13 +57,18 @@ export const getStaticProps = async ({
   const parsedMarkdown = fm(markdownWithMeta?.data?.attributes?.content || "");
   const htmlString = marked(parsedMarkdown.body);
   const image =
-    markdownWithMeta?.data?.attributes?.featured_image?.data?.attributes?.url ||
-    null;
+    markdownWithMeta?.data?.attributes?.featured_image?.data?.attributes
+      ?.formats?.thumbnail?.url || null;
 
-  // const post = await res.json();
-  // const parsedMarkdown = fm(post.content);
-  // const htmlString = marked(parsedMarkdown.body);
-  // const image = post.image.url;
+
+  // Fetch the image from the API
+  // const imageRes = await fetch(
+  //   "https://strapi-cms.engagespot.co/api/"+
+  //     markdownWithMeta?.data?.attributes?.featured_image?.url
+  // );
+  // const imageData = await imageRes.arrayBuffer();
+  // const buffer = Buffer.from(imageData);
+
 
   return {
     props: {
@@ -99,23 +105,24 @@ export default function BlogPost({
           <div className="flex flex-col justify-center items-center gap-2 sm:gap-4">
             <h1 className="text-white text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-7xl xl:px-80 xl:leading-tight">
               {attributes.title}
-            </h1>{" "}
-            <div className="bg-[#151516] rounded-3xl p-6 2xl:mx-64">
-              <div dangerouslySetInnerHTML={{ __html: htmlString }} />
-
-              <p className="text-[#C0C0C8]">{data.content}</p>
+            </h1>
+            <div>
+              <Image
+                src={image}
+                alt="blog-post"
+                priority={true}
+                className="rounded-full bg-white mt-12"
+                width={600}
+                height={400}
+              />
+            </div>
+            <div className="bg-[#151516] rounded-3xl p-8 mt-8 px-12 xl:mx-64 text-[#C0C0C8] w-screen md:w-full ">
+              <div
+                dangerouslySetInnerHTML={{ __html: htmlString }}
+                className="flex flex-col overflow-hidden gap-5"
+              />
             </div>
           </div>
-        </div>
-        <div>
-          {/* <Image
-              src={image}
-              alt="blog-post"
-              priority={true}
-              className="rounded-full"
-              width={600}
-              height={400}
-            /> */}
         </div>
 
         <Footer />
