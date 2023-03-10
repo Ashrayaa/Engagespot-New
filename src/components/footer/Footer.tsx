@@ -93,12 +93,13 @@ const Footer = (props: Props) => {
                 <Link href="/blog">
                   <li>Blog</li>
                 </Link>
-                <Link href="/singlepage">
-                  <li>Blog post</li>
-                </Link>
+              
                 <li>Discord</li>
                 <li>Doc</li>
                 <li>Roadmap</li>
+                <Link href="/termsandconditions">
+                  <li>Terms & Conditions</li>
+                </Link>
               </ul>
             </div>
 

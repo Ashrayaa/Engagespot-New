@@ -62,10 +62,7 @@ export const getStaticProps = async ({
 
 
   // Fetch the image from the API
-  // const imageRes = await fetch(
-  //   "https://strapi-cms.engagespot.co/api/"+
-  //     markdownWithMeta?.data?.attributes?.featured_image?.url
-  // );
+  // const imageRes = await fetch();
   // const imageData = await imageRes.arrayBuffer();
   // const buffer = Buffer.from(imageData);
 
