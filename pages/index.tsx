@@ -30,7 +30,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <main className="bg-black sm:pt-8">
+      <main className="bg-black sm:pt-8 antialiased">
         <Header />
         <Introduction />
         <Zapier />

@@ -20,7 +20,7 @@ interface BlogArticle {
 
 export const getStaticProps = async () => {
   const resulting = await fetch(
-    "https://strapi-cms.engagespot.co/api/blog-articles"
+    "https://strapi-cms.engagespot.co/api/blog-articles?populate=featured_image"
   );
   const result = await resulting.json();
   return {
