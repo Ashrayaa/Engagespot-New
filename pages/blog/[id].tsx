@@ -1,6 +1,5 @@
 export {};
 
-
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
@@ -8,7 +7,6 @@ import { marked } from "marked";
 import fm from "front-matter";
 import Header from "@/src/components/header/Header";
 import Footer from "@/src/components/footer/Footer";
-
 
 interface BlogPostProps {
   image: string;
@@ -23,8 +21,8 @@ interface BlogPostProps {
     title: string;
     content: string;
   };
+  title: string;
 }
-
 
 export const getStaticPaths = async () => {
   const response = await fetch(
@@ -36,11 +34,9 @@ export const getStaticPaths = async () => {
       params: { id: result.id.toString() },
     })),
 
-
     fallback: "blocking",
   };
 };
-
 
 export const getStaticProps = async ({
   params,
@@ -55,31 +51,36 @@ export const getStaticProps = async ({
   }
   // const result = await res.json();
 
-
   const markdownWithMeta = await res.json();
-  const parsedMarkdown = fm(markdownWithMeta?.data?.attributes?.content || '');
+  const title = fm(markdownWithMeta?.data?.attributes?.title || "");
+  const parsedMarkdown = fm(markdownWithMeta?.data?.attributes?.content || "");
   const htmlString = marked(parsedMarkdown.body);
-   const image = markdownWithMeta?.data?.attributes?.featured_image?.data?.attributes?.url || null;
-
+  const image =
+    markdownWithMeta?.data?.attributes?.featured_image?.data?.attributes?.url ||
+    null;
 
   // const post = await res.json();
   // const parsedMarkdown = fm(post.content);
   // const htmlString = marked(parsedMarkdown.body);
   // const image = post.image.url;
 
-
   return {
     props: {
-      //markdownWithMeta,
-       image,
+      image,
       htmlString,
       data: parsedMarkdown.attributes,
+      id: params.id,
+      attributes: markdownWithMeta?.data?.attributes || {},
     },
   };
 };
 
-
-export default function BlogPost({ data, htmlString }: BlogPostProps) {
+export default function BlogPost({
+  attributes,
+  image,
+  data,
+  htmlString,
+}: BlogPostProps) {
   return (
     <>
       <Head>
@@ -92,25 +93,20 @@ export default function BlogPost({ data, htmlString }: BlogPostProps) {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-
       <main className="bg-black sm:pt-8 text-white">
         <Header />
         <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-20">
           <div className="flex flex-col justify-center items-center gap-2 sm:gap-4">
             <h1 className="text-white text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-7xl xl:px-80 xl:leading-tight">
-              {data.title}
+              {attributes.title}
             </h1>{" "}
-            <p className="text-[#C0C0C8] text-xs lg:text-sm xl:text-xl px-5 sm:px-32 md:px-36 lg:px-44 xl:px-[310px]  2xl:font-semibold text-center shadow-2xl opacity-90">
-              {data.content}
-            </p>
+            <div className="bg-[#151516] rounded-3xl p-6 2xl:mx-64">
+              <div dangerouslySetInnerHTML={{ __html: htmlString }} />
+
+              <p className="text-[#C0C0C8]">{data.content}</p>
+            </div>
           </div>
         </div>
-
-
-        {/* <h1 className="text-white">{data.attributes.title}</h1>
-        <p className="text-white">{data.attributes.content}</p> */}
-
-
         <div>
           {/* <Image
               src={image}
@@ -120,15 +116,10 @@ export default function BlogPost({ data, htmlString }: BlogPostProps) {
               width={600}
               height={400}
             /> */}
-          <div dangerouslySetInnerHTML={{ __html: htmlString }} />
         </div>
-
 
         <Footer />
       </main>
     </>
   );
 }
-
-
-
