@@ -83,7 +83,7 @@ The complete notification infrastructure for your product            </p>
               <ul className="text-[#9E9E9E] text-[10px] xl:text-[16px] lg:text-sm lg:font-medium font-normal flex flex-col gap-5 mt-6">
                <Link href="/aboutus"> <li>About Us</li></Link>
                <Link href="/blog"><li>Blog</li></Link>
-               <Link href="/blogpost"><li>Blog post</li></Link>
+               <Link href="/singlepage"><li>Blog post</li></Link>
                 <li>Discord</li>
                 <li>Doc</li>
                 <li>Roadmap</li>

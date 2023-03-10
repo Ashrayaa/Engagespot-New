@@ -9,13 +9,15 @@ import Blog4 from "public/Blog5.svg";
 
 
 interface BlogArticle {
-  id: number;
+  id: string;
   attributes: {
     title: string;
     content: string;
    
   };
 }
+
+
 export const getStaticProps = async () => {
   const resulting = await fetch(
     "https://strapi-cms.engagespot.co/api/blog-articles"
@@ -51,6 +53,7 @@ export default function Blog({ result }: { result: BlogArticle[] }) {
           return (
             <div key={result.id} className="flex flex-col justify-center items-start gap-3  rounded-3xl bg-[#151516]  hover:animate-none ">
               <Link href={`/blog/${result.id}`}>
+                
               {/* <Image src={Blog4} alt="Inapp" className="rounded-t-3xl" /> */}
 
                 <h2 className="text-white text-2xl lg:text-3xl 2xl:text-4xl font-semibold tracking-wide p-6 px-14 hover:text-[#aa4875]">{result.attributes.title}</h2>

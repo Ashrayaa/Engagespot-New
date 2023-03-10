@@ -1,3 +1,5 @@
+export {}
+
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
@@ -9,7 +11,13 @@ import Footer from "@/src/components/footer/Footer";
 interface BlogPostProps {
   image: string;
   htmlString: string;
-  data: {
+  post: {
+    [x: string]: any;
+    title: string;
+    content: string;
+  };
+  id: string;
+  attributes: {
     title: string;
     content: string;
   };
@@ -21,10 +29,11 @@ export const getStaticPaths = async () => {
   );
   const result = await response.json();
   return {
-    path: result.data.map((result: any) => ({
+    paths: result.data.map((result: any) => ({
       params: { id: result.id.toString() },
     })),
-    fallback: false,
+
+    fallback: "blocking",
   };
 };
 
@@ -36,14 +45,24 @@ export const getStaticProps = async ({
   const res = await fetch(
     `https://strapi-cms.engagespot.co/api/blog-articles/${params.id}`
   );
-  const markdownWithMeta = await res.json();
-  const parsedMarkdown = fm(markdownWithMeta.data.attributes.draft);
+  if (res.status === 404) {
+    return { notFound: true };
+  }
+  //  const result = await res.json();
+
+  //   const markdownWithMeta = await res.json();
+  //   const parsedMarkdown = fm(markdownWithMeta.data.attributes.draft);
+  //   const htmlString = marked(parsedMarkdown.body);
+  //   const image = markdownWithMeta.data.attributes.imageUrl;
+
+  const post = await res.json();
+  const parsedMarkdown = fm(post.content);
   const htmlString = marked(parsedMarkdown.body);
-  const image = markdownWithMeta.data.attributes.imageUrl;
+  const image = post.image.url;
 
   return {
     props: {
-        res,
+      //markdownWithMeta,
       image,
       htmlString,
       data: parsedMarkdown.attributes,
@@ -51,7 +70,7 @@ export const getStaticProps = async ({
   };
 };
 
-export default function BlogPost({ data, htmlString }: BlogPostProps) {
+export default function BlogPost({ post, image, htmlString }: BlogPostProps) {
   return (
     <>
       <Head>
@@ -64,10 +83,21 @@ export default function BlogPost({ data, htmlString }: BlogPostProps) {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="bg-black sm:pt-8">
+      <main className="bg-black sm:pt-8 text-white">
         <Header />
-        <h1>{data.title}</h1>
-        <p>{data.content}</p>
+        <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-20">
+          <div className="flex flex-col justify-center items-center gap-2 sm:gap-4">
+            <h1 className="text-white text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-7xl xl:px-80 xl:leading-tight">
+              {post.attributes.title}
+            </h1>{" "}
+            <p className="text-[#C0C0C8] text-xs lg:text-sm xl:text-xl px-5 sm:px-32 md:px-36 lg:px-44 xl:px-[310px]  2xl:font-semibold text-center shadow-2xl opacity-90">
+              {post.attributes.content}
+            </p>
+          </div>
+        </div>
+
+        {/* <h1>{result.attributes.title}</h1>
+        <p>{result.attributes.content}</p> */}
 
         <div>
           {/* <Image
