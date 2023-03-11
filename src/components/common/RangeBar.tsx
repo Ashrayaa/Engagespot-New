@@ -22,7 +22,7 @@ const RangeBar: React.FC = () => {
           value={value}
           onChange={handleChange}
           className=""
-        />
+        />   
       </div>
       <div className=" text-gray-500 text-sm font-medium">$10,000</div>
     </div>
