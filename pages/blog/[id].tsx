@@ -9,6 +9,7 @@ import Header from "@/src/components/header/Header";
 import Footer from "@/src/components/footer/Footer";
 import { Buffer } from "buffer";
 
+
 interface BlogPostProps {
   image: string;
   htmlString: string;
@@ -108,7 +109,7 @@ export default function BlogPost({
                 src={image}
                 alt="blog-post"
                 priority={true}
-                className="rounded-full bg-white mt-12"
+                className=""
                 width={600}
                 height={400}
               />
