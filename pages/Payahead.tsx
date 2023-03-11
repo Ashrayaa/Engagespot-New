@@ -7,10 +7,10 @@ const Payahead = () => {
       <div className="bg-[#151516] text-white rounded-3xl mt-12 lg:mt-24 p-4 mx-4 sm:mx-8 sm:gap-10 md:p-6 2xl:mx-44 xl:mx-44">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col justify-center items-center gap-3">
-            <h1 className="text-4xl text-white font-semibold">
+            <h1 className="text-4xl text-white text-center font-semibold">
               Pay Ahead Save Money
             </h1>
-            <p className="text-[#C0C0C8] text-xs xl:text-lg xl:leading-7 text-center xl:px-28">
+            <p className="text-[#C0C0C8] text-sm text-left md:text-xs xl:text-lg xl:leading-7 md:text-center xl:px-28">
               Commit upfront by paying a little more than you require to avoid
               paying on-demand rates and get huge volume discounts. Ideal for
               companies with large volumes and predictable requirements.
@@ -66,15 +66,15 @@ const Payahead = () => {
 
             <div className="flex flex-col md:flex-row md:justify-center md:gap-10 2xl:gap-36 xl:mt-6">
               <div className="flex flex-col gap-4 lg:w-[500px]">
-                <h5 className="text-white text-lg font-semibold">Notification triggers per month</h5>
-                <p className="">
+                <h5 className="text-white text-left text-lg font-semibold">Notification triggers per month</h5>
+                <p className="text-left">
                   Commit upfront by paying a little more than you require to
                   avoid paying on-demand rates and get huge volume
                   discounts.Ideal for companies with large volumes and
                   predictable requirements.
                 </p>
               </div>
-              <div className="bg-gradient-to-br from-[#7662AB] to-[#B261A6] lg:-mt-4 rounded-xl text-white flex flex-col gap-2 p-6 px-10 justify-center items-center">
+              <div className="bg-gradient-to-br from-[#7662AB] to-[#B261A6] lg:-mt-4 mt-4 rounded-xl text-white flex flex-col gap-2 p-6 px-10 justify-center items-center">
                 <h5 className="text-2xl font-semibold">Total Cost</h5>
                 <h1 className="font-extrabold text-4xl">$149.00</h1>
                 <p className="font-medium text-center text-[13px]">
