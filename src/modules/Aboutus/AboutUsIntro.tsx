@@ -8,7 +8,7 @@ const AboutUsIntro = (props: Props) => {
     <div className="flex flex-col justify-center items-center gap-2 sm:gap-4">
       <h1 className="text-white text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:px-72 xl:leading-tight">
       Our mission is to make the best code editor of the world, period.      </h1>
-      <p className="text-[#C0C0C8] text-xs lg:text-sm xl:text-xl px-5 sm:px-32 md:px-36 lg:px-44 xl:px-[310px]  2xl:font-semibold text-center shadow-2xl opacity-90">
+      <p className=" text-[#C0C0C8] text-xs xl:text-lg xl:leading-9 text-center xl:px-80 lg:px-64 md:px-44">
       Suspendisse sed sit non blandit augue cursus risus pharetra neque quam magna pharetra semper malesuada ridiculus etiam pellentesque et tellus.
       </p>
       {/* <div className="flex flex-row gap-6 justify-center py-6">
