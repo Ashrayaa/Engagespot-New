@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Newspaper from "public/Newspaper.svg";
+import Batchedimage from "public/batched.svg";
 import Extension from "public/extension1.svg";
 import Extensiontwo from "public/extension2.svg";
 import Header from "src/components/header/Header";
@@ -16,7 +16,7 @@ const Batched = () => {
       <section className="flex flex-col md:flex-row md:justify-between xl:gap-6 mt-16 mx-6 lg:px-6">
         <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left ">
           <h2 className="text-[#FFFF] text-2xl md:text-3xl xl:text-6xl xl:leading-tight font-bold">
-            Design notification for every channel in one place{" "}
+            Combine multiple notifications into single one
           </h2>
 
           <p className="text-[#C0C0C8] text-xs md:text-left xl:text-lg xl:leading-9 text-center">
@@ -30,13 +30,13 @@ const Batched = () => {
               Get Started
             </button>
             <button className="rounded-full font-semibold p-4 xl:p-5 xl:px-6 xl:text-xl text-white bg-[#212123] transition duration-300 transform hover:scale-110 hover:outline">
-              Book a Demo
+             View Pricing
             </button>
           </div>
         </div>
         <div className="md:w-1/2 hidden md:flex md:h-auto md:overflow-hidden">
           <Image
-            src={Newspaper}
+            src={Batchedimage}
             alt="newsletter"
             className="w-full h-full object-cover object-center"
           />

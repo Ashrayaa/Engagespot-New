@@ -17,7 +17,7 @@ const Unifiedlogging = () => {
       <section className="flex flex-col md:flex-row md:justify-between xl:gap-6 mt-16 mx-6 lg:px-6">
         <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left ">
           <h2 className="text-[#FFFF] text-2xl md:text-3xl xl:text-6xl xl:leading-tight font-bold">
-            Design notification for every channel in one place{" "}
+            Track notifications across channels in one place
           </h2>
 
           <p className="text-[#C0C0C8] text-xs md:text-left xl:text-lg xl:leading-9 text-center">
