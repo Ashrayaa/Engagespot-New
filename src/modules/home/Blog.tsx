@@ -15,7 +15,7 @@ const Section = ({
   title: string;
 }) => {
   return (
-    <div className="flex flex-col justify-center items-start gap-3   rounded-3xl bg-[#151516]  hover:animate-pulse ">
+    <div className="flex flex-col justify-center items-start gap-3   rounded-3xl bg-[#151516]   "data-aos="zoom-in-up">
       <Image src={iconimage} alt="Inapp" className="rounded-t-3xl"/>
 
       <h2 className="text-white text-2xl lg:text-3xl font-semibold tracking-wide p-6 px-14">

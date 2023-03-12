@@ -23,7 +23,7 @@ const Fordevelopers = (props: Props) => {
           front-end and backend SDKs or REST APIs to build a scalable
           notification infrastructure for your product in minutes.
         </p>
-        <div className="relative z-20 flex flex-col justify-center items-center">
+        <div className="relative z-20 flex flex-col justify-center items-center" data-aos="zoom-in-up">
           {/* <LibraryBar/> */}
             <div className="grid grid-flow-row grid-cols-6  border-none rounded-lg text-white gap-1 bg-[#0D0D11] p-2 mx-6 mt-6">
               <button className="flex  flex-col font-extralight text-[10px] px-[6px]  justify-center items-center focus:border-[#8D8D8D] focus:bg-[#303034] rounded-lg lg:font-light lg:px-[14px] lg:py-4 lg:text-lg gap-4 focus:border checked:">
@@ -70,7 +70,7 @@ const Fordevelopers = (props: Props) => {
             </div>
           </div>
 
-          <div className="ml-4 mt-6 lg:w-[900px]">
+          <div className="ml-4 mt-6 lg:w-[900px] "data-aos="zoom-in-up">
             <Image src={Code} alt="code" />
           </div>
           {/* <div className="hidden lg:flex z-20">

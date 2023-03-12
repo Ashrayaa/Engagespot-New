@@ -17,7 +17,7 @@ const Section = ({
   description: string;
 }) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-3 py-10 xl:px-10 2xl:py-16 rounded-3xl bg-[#151516] px-5 hover:animate-pulse ">
+    <div className="flex flex-col justify-center items-center gap-3 py-10 xl:px-10 2xl:py-16 rounded-3xl bg-[#151516] px-5" data-aos="zoom-in-up">
       <Image src={iconimage} alt="Inapp" className="w-16" />
       <h2 className="text-white text-[21px] font-semibold tracking-wide">
         {title}
