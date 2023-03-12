@@ -15,7 +15,7 @@ import { useRouter } from "next/router";
 import Blog from "../src/modules/home/Blog";
 import CTASection from "../src/modules/home/CTASection";
 import Newsletter from "@/src/components/common/Newsletter";
-import 'animate.css';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,10 +30,6 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
-        <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
       </Head>
       <main className="bg-black sm:pt-8 antialiased">
         <Header />

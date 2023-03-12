@@ -6,7 +6,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Blog4 from "public/Blog5.svg";
-import 'animate.css';
 
 
 interface BlogArticle {
@@ -52,7 +51,7 @@ export default function Blog({ result }: { result: BlogArticle[] }) {
        
         {result.map((result) => {
           return (
-            <div key={result.id} className="flex flex-col justify-center items-start gap-3  rounded-3xl bg-[#151516]  animate__animated animate__slideInUp">
+            <div key={result.id} className="flex flex-col justify-center items-start gap-3  rounded-3xl bg-[#151516]  hover:animate-none ">
               <Link href={`/blog/${result.id}`}>
                 
               {/* <Image src={Blog4} alt="Inapp" className="rounded-t-3xl" /> */}

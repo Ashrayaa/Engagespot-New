@@ -8,7 +8,7 @@ import Footer from "src/components/footer/Footer";
 import Build from "src/components/common/Build";
 import Code from "public/codewidth.svg";
 import CTASection from "@/src/modules/home/CTASection";
-import "animate.css";
+
 
 const Multichannels = () => {
   return (
@@ -16,7 +16,7 @@ const Multichannels = () => {
       <Header />
 
       <section className="flex flex-col md:flex-row md:justify-between xl:gap-6 mt-16 mx-6 lg:px-6">
-        <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left animate__animated animate__fadeInLeft">
+        <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left ">
           <h2 className="text-[#FFFF] text-2xl md:text-3xl xl:text-6xl xl:leading-tight font-bold">
           Single API to send notifications to multiple channels          </h2>
 
@@ -35,7 +35,7 @@ const Multichannels = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-1/2 hidden md:flex md:h-auto md:overflow-hidden animate__animated animate__fadeInRight">
+        <div className="md:w-1/2 hidden md:flex md:h-auto md:overflow-hidden">
           <Image
             src={Newspaper}
             alt="newsletter"

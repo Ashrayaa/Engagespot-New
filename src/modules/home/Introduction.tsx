@@ -11,7 +11,7 @@ type Props = {};
 const Introduction = (props: Props) => {
   return (
     <>
-      <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-20 ">
+      <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-20">
         <div className="flex flex-col justify-center items-center gap-2 sm:gap-4">
           <h1 className="text-white text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-7xl xl:px-80 xl:leading-tight">
             Product notification  🚀 infrastructure
