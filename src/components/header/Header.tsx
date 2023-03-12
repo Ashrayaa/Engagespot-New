@@ -104,7 +104,7 @@ const Header = (props: Props) => {
           <ul className="flex flex-col gap-3 lg:flex-row justify-center lg:items-center lg:gap-8 2xl:gap-10 ">
             <Link href="">
               <li className="relative group lg:px-3 lg:py-2">
-                <button className="hover:opacity-50 cursor-default">
+                <button className="hover:text-[#aa4875]">
                   Products
                 </button>
                 <div className="absolute hidden lg:flex top-0 -left-48 transition group-hover:translate-y-8 translate-y-0 opacity-0 invisible group-hover:visible duration-500 ease-in-out group-hover:opacity-100 group-hover:transform z-50 min-w-[760px] transform">
