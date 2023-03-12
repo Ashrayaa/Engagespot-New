@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import 'animate.css';
 import { Featurelist } from "src/components/common/config";
 
 type Props = {};
@@ -17,7 +17,7 @@ const Section = ({
   description: string;
 }) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-3 py-10 xl:px-10 2xl:py-16 rounded-3xl bg-[#151516] px-5 hover:animate-pulse ">
+    <div className="flex flex-col justify-center items-center gap-3 py-10 xl:px-10 2xl:py-16 rounded-3xl bg-[#151516] px-5 ">
       <Image src={iconimage} alt="Inapp" className="w-16" />
       <h2 className="text-white text-[21px] font-semibold tracking-wide">
         {title}
@@ -32,7 +32,7 @@ const Section = ({
 const Features = (props: Props) => {
   return (
     <div className="xl:mt-24">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center animate__animated animate__slideInUp">
         <h2 className="text-[#E7E3E3] text-2xl lg:text-4xl xl:text-5xl xl:px-44 px-3 tracking-wide mb-4 text-center font-semibold">
           Features to build the best multi-channel notification experience
         </h2>
@@ -41,7 +41,7 @@ const Features = (props: Props) => {
           scratch. Just integrate our SDKs and APIs to build a scalable
           notification system for your product.
         </p>
-        <div className="lg:grid lg:grid-flow-row lg:grid-cols-3 sm:grid  sm:grid-cols-1 md:grid-cols-2 lg:gap-4 flex flex-col gap-4 px-6 w-full lg:px-12 xl:px-32 2xl:px-36 mt-8 ">
+        <div className="lg:grid lg:grid-flow-row lg:grid-cols-3 sm:grid  sm:grid-cols-1 md:grid-cols-2 lg:gap-4 flex flex-col gap-4 px-6 w-full lg:px-12 xl:px-32 2xl:px-36 mt-8 animate__animated animate__fadeInUp">
           {Featurelist.map((feature) => {
             return (
               <Section
