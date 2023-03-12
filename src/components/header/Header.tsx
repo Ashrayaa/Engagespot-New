@@ -11,13 +11,21 @@ import Unified from "public/megamenu-products/unifiedlogging.svg";
 import Preference from "public/megamenu-products/preferrence.svg";
 import ProductMenu from "@/pages/megamenu";
 
-type Props = {
- 
-};
+type Props = {};
 
-function MobileNav({open, setOpen}: {open: boolean, setOpen: (open: boolean) => void}) {
+function MobileNav({
+  open,
+  setOpen,
+}: {
+  open: boolean;
+  setOpen: (open: boolean) => void;
+}) {
   return (
-    <div className={`absolute top-0 left-0 w-screen bg-black px-4 pb-8 z-20 transform ${open?"translate-y-20 sm:translate-y-28":"-translate-y-full"} transition-transform duration-500 ease-in-out filter`}>
+    <div
+      className={`absolute top-0 left-0 w-screen bg-black px-4 pb-8 z-20 transform ${
+        open ? "translate-y-20 sm:translate-y-28" : "-translate-y-full"
+      } transition-transform duration-500 ease-in-out filter`}
+    >
       <div className=" flex lg:hidden flex-col gap-6 pl-8 antialiased bg-[#161618] rounded-3xl py-8 lg:py-0 lg:pl-0 lg:flex-row justify-center mt-10 lg:mt-0 lg:gap-6">
         <ul className="flex flex-col gap-3 lg:flex-row justify-center lg:items-center lg:gap-8 2xl:gap-10 ">
           <Link href="">
@@ -36,7 +44,9 @@ function MobileNav({open, setOpen}: {open: boolean, setOpen: (open: boolean) => 
           <Link href="/integration">
             <li className="hover:text-[#aa4875]">Integrations</li>
           </Link>
-          <li className="hover:text-[#aa4875]">Documentation</li>
+          <Link href="https://documentation.engagespot.co/docs/introduction/getting-started">
+            <li className="hover:text-[#aa4875]">Documentation</li>
+          </Link>
           <Link href="/blog">
             <li className="hover:text-[#aa4875]">Blog</li>
           </Link>
@@ -46,7 +56,6 @@ function MobileNav({open, setOpen}: {open: boolean, setOpen: (open: boolean) => 
             Get Started
           </button>
         </Link>
-        
       </div>
     </div>
   );
@@ -109,7 +118,9 @@ const Header = (props: Props) => {
             <Link href="/integration">
               <li className="hover:text-[#aa4875]">Integrations</li>
             </Link>
-            <li className="hover:text-[#aa4875]">Documentation</li>
+            <Link href="https://documentation.engagespot.co/docs/introduction/getting-started/">
+              <li className="hover:text-[#aa4875]">Documentation</li>
+            </Link>
             <Link href="/blog">
               <li className="hover:text-[#aa4875]">Blog</li>
             </Link>
