@@ -16,7 +16,7 @@ const Unifiedlogging = () => {
       <Header />
 
       <section className="flex flex-col md:flex-row md:justify-between xl:gap-6 mt-16 mx-6 lg:px-6">
-        <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left ">
+        <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left "data-aos="fade-right">
           <h2 className="text-[#FFFF] text-2xl md:text-3xl xl:text-6xl xl:leading-tight font-bold">
             Track notifications across channels in one place
           </h2>
@@ -36,7 +36,7 @@ const Unifiedlogging = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-1/2 hidden md:flex md:h-auto md:overflow-hidden">
+        <div className="md:w-1/2 hidden md:flex md:h-auto md:overflow-hidden"data-aos="fade-left">
           <Image
             src={Newspaper}
             alt="newsletter"
@@ -45,7 +45,7 @@ const Unifiedlogging = () => {
         </div>
       </section>
 
-      <section className="flex flex-col py-10 md:flex-row md:justify-between rounded-3xl bg-[#151516] xl:gap-6 mt-20 mx-6 lg:mx-8 xl:mx-32">
+      <section className="flex flex-col py-10 md:flex-row md:justify-between rounded-3xl bg-[#151516] xl:gap-6 mt-20 mx-6 lg:mx-8 xl:mx-32"data-aos="flip-up">
         <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-9 text-center md:text-left ">
           <h2 className="text-[#FFFF] sm:px-14 md:px-0 text-2xl md:text-3xl tracking-wide font-bold">
             About the extension{" "}
@@ -84,7 +84,7 @@ const Unifiedlogging = () => {
         </div>
       </section>
 
-      <section className="flex flex-col py-10 md:flex-row md:justify-between rounded-3xl bg-[#151516] xl:gap-6 mt-20 mx-6 lg:mx-8 xl:mx-32">
+      <section className="flex flex-col py-10 md:flex-row md:justify-between rounded-3xl bg-[#151516] xl:gap-6 mt-20 mx-6 lg:mx-8 xl:mx-32"data-aos="flip-down">
         <div className="md:w-1/2 hidden md:flex md:h-auto md:overflow-hidden">
           <Image
             src={Extensiontwo}

@@ -46,7 +46,7 @@ const OurValues = (props: Props) => {
           Suspendisse sed sit non blandit augue cursus risus pharetra neque quam
           magna pharetra semper malesuada.{" "}
         </p>
-        <div className="lg:grid lg:grid-flow-row lg:grid-cols-2 lg:gap-6 lg:px-12 xl:px-36 pt-6 px-5 flex flex-col gap-4">
+        <div className="lg:grid lg:grid-flow-row lg:grid-cols-2 lg:gap-6 lg:px-12 xl:px-36 pt-6 px-5 flex flex-col gap-4"data-aos="flip-down">
           <div className="flex flex-col gap-6 p-4 lg:p-8 xl:p-12 rounded-3xl bg-[#151516] hover:animate-pulse text-white">
             <div className="flex flex-row gap-4 justify-center">
               <Image src={Innovation} alt="Amazon" className="-mt-10" />
@@ -83,7 +83,7 @@ const OurValues = (props: Props) => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-6 p-4 lg:p-8 xl:p-12 rounded-3xl bg-[#151516] hover:animate-pulse text-white">
+          <div className="flex flex-col gap-6 p-4 lg:p-8 xl:p-12 rounded-3xl bg-[#151516] hover:animate-pulse text-white"data-aos="flip-up">
             <div className="flex flex-row gap-4 justify-center">
               <Image src={Ownership} alt="Amazon" className="-mt-10" />
               <div className="flex flex-col gap-3 ">

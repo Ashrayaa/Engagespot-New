@@ -22,7 +22,7 @@ const Section = ({
   description: string;
 }) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-3 py-10 xl:px-10 2xl:py-16 rounded-3xl bg-[#151516] px-5 hover:animate-pulse ">
+    <div className="flex flex-col justify-center items-center gap-3 py-10 xl:px-10 2xl:py-16 rounded-3xl bg-[#151516] px-5 hover:animate-pulse "data-aos="zoom-out">
       <Image src={iconimage} alt="Inapp" className="w-16" />
       <h2 className="text-white text-[21px] font-semibold tracking-wide">
         {title}
@@ -40,7 +40,7 @@ const Multichannels = () => {
       <Header />
 
       <section className="flex flex-col md:flex-row md:justify-between xl:gap-6 mt-16 mx-6 lg:px-6">
-        <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left ">
+        <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left "data-aos="fade-right">
           <h2 className="text-[#FFFF] text-2xl md:text-3xl xl:text-6xl xl:leading-tight font-bold">
             Ready To Use Notification UI Kit
           </h2>
@@ -60,7 +60,7 @@ const Multichannels = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-1/2 hidden md:flex md:h-auto md:overflow-hidden">
+        <div className="md:w-1/2 hidden md:flex md:h-auto md:overflow-hidden"data-aos="fade-left">
           <Image
             src={Newspaper}
             alt="newsletter"

@@ -4,7 +4,7 @@ type Props = {};
 const PayAsYouGo = () => {
   return (
     <>
-      <div className="bg-[#151516] rounded-3xl mt-12 lg:mt-24 p-4 mx-4 sm:mx-8 sm:gap-10 md:p-6 2xl:mx-44 xl:mx-44">
+      <div className="bg-[#151516] rounded-3xl mt-12 lg:mt-24 p-4 mx-4 sm:mx-8 sm:gap-10 md:p-6 2xl:mx-44 xl:mx-44" data-aos="fade-up-right">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col justify-center items-center gap-3">
             <h1 className="text-4xl text-white font-semibold">Pay As you Go</h1>
