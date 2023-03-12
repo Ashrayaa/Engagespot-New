@@ -9,7 +9,7 @@ const AboutUsIntro = (props: Props) => {
         <h1 className="text-white text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:px-52 xl:leading-tight">
           Our mission is to make the best code editor of the world, period{" "}
         </h1>
-        <p className=" text-[#C0C0C8] text-xs xl:text-lg xl:leading-9 text-center xl:px-80 lg:px-64 md:px-44">
+        <p className=" text-[#C0C0C8] xl:leading-9 tracking-normal leading-7 lg:text-[16px] text-[14px]  px-8 sm:px-20 lg:px-32 xl:px-64 2xl:px-80 xl:text-lg xl:font-light xl:py-4 2xl:text-xl 2xl:font-semibold text-center">
           Suspendisse sed sit non blandit augue cursus risus pharetra neque quam
           magna pharetra semper malesuada ridiculus etiam pellentesque et
           tellus.

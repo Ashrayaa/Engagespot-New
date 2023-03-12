@@ -5,7 +5,7 @@ const Blogintro = () => {
         <h1 className="text-white antialiased text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:px-80 xl:leading-tight">
           Explore Our Blogs{" "}
         </h1>{" "}
-        <p className="text-[#C0C0C8] text-xs md:text-left xl:text-lg xl:leading-9 text-center">
+        <p className="text-[#C0C0C8] xl:leading-9 tracking-normal leading-7 lg:text-[16px] text-[14px]  px-8 sm:px-20 lg:px-32 xl:px-64 2xl:px-80 xl:text-lg xl:font-light xl:py-4 2xl:text-xl 2xl:font-semibold text-center">
           Stay Ahead of the Curve with EngageSpot. Your Destination for Proven
           Notification Strategies
         </p>

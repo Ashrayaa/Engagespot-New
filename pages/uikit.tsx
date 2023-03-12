@@ -39,13 +39,13 @@ const Multichannels = () => {
     <div className="bg-black sm:pt-8 antialiased">
       <Header />
 
-      <section className="flex flex-col md:flex-row md:justify-between xl:gap-6 mt-16 mx-6 lg:px-6">
-        <div className="md:w-1/2 flex items-start justify-center p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left "data-aos="fade-right">
-          <h2 className="text-[#FFFF] text-2xl md:text-3xl xl:text-6xl xl:leading-tight font-bold">
+      <section className="flex flex-col md:flex-row md:justify-between xl:gap-6 md:mt-16 mt-12 mx-6 lg:px-6">
+        <div className="md:w-1/2 flex items-center md:items-start justify-center  md:p-8 xl:pl-14 flex-col gap-3 lg:gap-6 text-center md:text-left "data-aos="fade-right">
+          <h2 className="text-[#FFFF] text-4xl leading-10 xl:text-6xl xl:leading-tight font-bold">
             Ready To Use Notification UI Kit
           </h2>
 
-          <p className="text-[#C0C0C8] text-xs md:text-left xl:text-lg xl:leading-9 text-center">
+          <p className="text-[#C0C0C8] text-[14px] leading-7 px-4 md:text-left xl:text-lg xl:leading-9 text-center">
             Add a beautiful notification inbox component to your React, Angular,
             Vue.JS & HTML app using our pre-built UI-Kit. Show all notifications
             in a single component inside your app.
@@ -69,9 +69,9 @@ const Multichannels = () => {
         </div>
       </section>
 
-      <div className="xl:mt-24">
+      <div className="xl:mt-24 mt-10">
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-[#E7E3E3] text-2xl lg:text-4xl xl:text-5xl xl:px-44 px-3 tracking-wide mb-4 text-center font-semibold">
+          <h2 className="text-[#E7E3E3] text-4xl lg:text-4xl xl:text-5xl xl:px-44 px-3 tracking-wide mb-4 text-center font-semibold">
             Features
           </h2>
           <p className="text-[#C0C0C8] xl:leading-9 xl:px-80  tracking-normal leading-7 lg:text-[16px] text-[14px]  px-8 xl:text-lg xl:py-4 xl:pb-16 2xl:text-xl 2xl:font-semibold text-center">
@@ -96,7 +96,7 @@ const Multichannels = () => {
       </div>
 
       <CTASection />
-      <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-20">
+      <div className="hidden lg:flex lg:px-6 flex-col justify-center items-center mt-10 xl:mt-20">
         <div className="flex flex-col justify-center items-center gap-2 sm:gap-4">
           <h1 className="text-white text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-7xl xl:px-80 xl:leading-tight">
             Get Started

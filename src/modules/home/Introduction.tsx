@@ -30,13 +30,7 @@ const Introduction = (props: Props) => {
               </button>
           </div>
         </div>
-        {/* <div className="">
-          <Image
-            src={Intro}
-            alt="logo"
-            className="mb-10 px-8 md:py-12 md:px-0 2xl:-mt-16"
-          />
-        </div> */}
+       
       </div>
 
       <div className="px-4 flex flex-col gap-6 justify-center items-center xl:mt-12 ">
