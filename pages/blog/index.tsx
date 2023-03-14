@@ -53,10 +53,10 @@ export default function Blog({ result }: { result: BlogArticle[] }) {
               >
                 <Link href={`/blog/${result.id}`}>
                   <Image
-                    src={result.attributes.featured_image.url}
-                    alt="sorry"
+                    src={result?.attributes?.featured_image?.url}
+                    alt="BlogImage"
                     width={120}
-                    height={100}
+                    height={200}
                     className="rounded-t-3xl"
                   />
 
