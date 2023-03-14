@@ -26,14 +26,14 @@ function MobileNav({
         open ? "translate-y-20 sm:translate-y-28" : "-translate-y-full"
       } transition-transform duration-500 ease-in-out filter`}
     >
-      <div className=" flex lg:hidden flex-col gap-6 pl-8 antialiased bg-[#161618] rounded-3xl py-8 lg:py-0 lg:pl-0 lg:flex-row justify-center mt-10 lg:mt-0 lg:gap-6">
-        <ul className="flex flex-col gap-3 lg:flex-row justify-center lg:items-center lg:gap-8 2xl:gap-10 ">
+      <div className=" flex lg:hidden flex-col gap-6 pl-8 antialiased bg-[#161618] rounded-3xl py-8 justify-center mt-10">
+        <ul className="flex flex-col gap-3 justify-center">
           <Link href="">
-            <li className="relative group lg:px-3 lg:py-2">
-              <button className="hover:opacity-50 cursor-default">
+            <li className="relative group">
+              <button className="hover:text-[#aa4875]">
                 Products
               </button>
-              <div className="absolute hidden lg:flex top-0 -left-48 transition group-hover:translate-y-8 translate-y-0 opacity-0 invisible group-hover:visible duration-500 ease-in-out group-hover:opacity-100 group-hover:transform z-50 min-w-[760px] transform">
+              <div className="absolute top-0 lg:-left-48 transition group-hover:translate-y-8 translate-y-0 opacity-0 invisible group-hover:visible duration-500 ease-in-out group-hover:opacity-100 group-hover:transform z-50 lg:min-w-[760px] transform">
                 <ProductMenu />
               </div>
             </li>
@@ -52,7 +52,7 @@ function MobileNav({
           </Link>
         </ul>
         <Link href="/pricingpage">
-          <button className=" rounded-full font-semibold lg:p-4 px-24  py-4 bg-white hover:bg-[#aa4875] text-[#0D0D0E] hover:text-white transition duration-300 transform hover:scale-110">
+          <button className=" rounded-full font-semibold px-24  py-4 bg-white hover:bg-[#aa4875] text-[#0D0D0E] hover:text-white transition duration-300 transform hover:scale-110">
             Get Started
           </button>
         </Link>

@@ -32,7 +32,7 @@ const Pricingintro = () => {
             </button>
             <button
               className={clsx(
-                "p-4 px-10 border rounded-full border-[#616161] font-semibold text-sm md:text-lg",
+                "p-4 px-12 border rounded-full border-[#616161] font-semibold text-sm md:text-lg",
                 selectedOption === "MAU" ? "bg-[#aa4875]" : "bg-[#151516]"
               )}
               onClick={() => handleOptionClick("MAU")}
