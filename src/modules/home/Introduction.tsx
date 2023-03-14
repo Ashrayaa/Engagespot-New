@@ -13,10 +13,10 @@ const Introduction = (props: Props) => {
     <>
       <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-20">
         <div className="flex flex-col justify-center items-center gap-2 sm:gap-4">
-          <h1 className="text-white text-center font-semibold px-3 text-4xl leading-snug sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-[116px] xl:px-16 2xl:px-32 xl:leading-tight">
+          <h1 className="text-white text-center font-semibold px-3 text-4xl leading-snug sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-[116px] xl:px-16 2xl:px-32 xl:leading-none">
             Product notification 🚀 infrastructure
           </h1>
-          <p className="text-[#C0C0C8] xl:leading-9 tracking-normal leading-7 lg:text-[16px] text-[14px]  px-8 sm:px-20 lg:px-32 xl:px-52 2xl:px-80 xl:text-[24px] xl:font-light xl:py-4 2xl:text-xl 2xl:font-semibold text-center">
+          <p className="text-[#C0C0C8] xl:leading-9 tracking-normal leading-7 lg:text-[16px] text-[14px]  px-8 sm:px-20 lg:px-32 xl:px-72 2xl:px-80 xl:text-[24px]  xl:py-4 2xl:text-xl xl:font-semibold text-center">
             Add in-app, push, email, sms, whatsapp, slack notification
             capabilities to your product in minutes with Engagespot&apos;s
             product notification infrastructure APIs and SDKs
