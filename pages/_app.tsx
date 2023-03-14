@@ -1,19 +1,18 @@
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+import '@/styles/globals.css'
+import type { AppProps } from 'next/app'
 
-import "aos/dist/aos.css";
-import AOS from "aos";
-
-import { useEffect } from "react";
+import 'aos/dist/aos.css'
+import AOS from 'aos';
+import { useEffect } from 'react';
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     AOS.init({
       // Global settings for AOS
       disable: false,
-      startEvent: "DOMContentLoaded",
-      initClassName: "aos-init",
-      animatedClassName: "aos-animate",
+      startEvent: 'DOMContentLoaded',
+      initClassName: 'aos-init',
+      animatedClassName: 'aos-animate',
       useClassNames: false,
       disableMutationObserver: false,
       debounceDelay: 50,
@@ -23,11 +22,11 @@ export default function App({ Component, pageProps }: AppProps) {
       offset: 120,
       delay: 0,
       duration: 400,
-      easing: "ease",
+      easing: 'ease',
       once: false,
       mirror: false,
-      anchorPlacement: "top-bottom",
-    });
-  }, []);
-  return <Component {...pageProps} />;
+      anchorPlacement: 'top-bottom',
+    })
+  }, [])
+  return <Component {...pageProps} />
 }

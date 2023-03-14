@@ -16,6 +16,7 @@ const Introduction = (props: Props) => {
           <h1 className="text-white text-center font-semibold px-3 text-4xl leading-snug sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-[116px] xl:px-16 2xl:px-32 xl:leading-none">
             Product notification 🚀 infrastructure
           </h1>
+          
           <p className="text-[#C0C0C8] xl:leading-9 tracking-normal leading-7 lg:text-[16px] text-[14px]  px-8 sm:px-20 lg:px-32 xl:px-72 2xl:px-80 xl:text-[24px]  xl:py-4 2xl:text-xl xl:font-semibold text-center">
             Add in-app, push, email, sms, whatsapp, slack notification
             capabilities to your product in minutes with Engagespot&apos;s
