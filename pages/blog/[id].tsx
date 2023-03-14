@@ -9,7 +9,6 @@ import Header from "@/src/components/header/Header";
 import Footer from "@/src/components/footer/Footer";
 import { Buffer } from "buffer";
 
-
 interface BlogPostProps {
   image: string;
   htmlString: string;
@@ -51,22 +50,15 @@ export const getStaticProps = async ({
   if (res.status === 404) {
     return { notFound: true };
   }
-  // const result = await res.json();
 
+  
   const markdownWithMeta = await res.json();
   const title = fm(markdownWithMeta?.data?.attributes?.title || "");
   const parsedMarkdown = fm(markdownWithMeta?.data?.attributes?.content || "");
-  const htmlString = marked(parsedMarkdown.body);
-  const image =
-    markdownWithMeta?.data?.attributes?.featured_image?.data?.attributes
-      ?.formats?.thumbnail?.url || null;
+  const htmlString = marked(parsedMarkdown.body,);
 
-
-  // Fetch the image from the API
-  // const imageRes = await fetch();
-  // const imageData = await imageRes.arrayBuffer();
-  // const buffer = Buffer.from(imageData);
-
+  const image = (markdownWithMeta?.data?.attributes?.featured_image?.url|| "");
+  console.log(image);
 
   return {
     props: {
@@ -105,19 +97,22 @@ export default function BlogPost({
               {attributes.title}
             </h1>
             <div>
-              <Image
-                src={image}
-                alt="blog-post"
-                priority={true}
-                className=""
-                width={600}
-                height={400}
-              />
+          
+              {image && (
+                <Image
+                  src={image}
+                  alt="blog-post"
+                  priority={true}
+                  className=""
+                  width={600}
+                  height={400}
+                />
+              )}
             </div>
-            <div className="bg-[#151516] md:px-14 lg: rounded-3xl p-8 mt-8 lg:mt-12 text-[#C0C0C8] w-[335px] sm:w-[550px] md:w-[650px] lg:w-[850px] xl:w-[1000px]">
+            <div className="bg-white md:px-14 lg: rounded-3xl p-8 mt-8 lg:mt-12 text-black w-[335px] sm:w-[550px] md:w-[650px] lg:w-[850px] xl:w-[1000px]">
               <div
                 dangerouslySetInnerHTML={{ __html: htmlString }}
-                className="flex flex-col overflow-hidden gap-5"
+                className="prose flex flex-col overflow-hidden gap-5 font-medium text-black"
               />
             </div>
           </div>
