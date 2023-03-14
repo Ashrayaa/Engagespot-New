@@ -104,7 +104,7 @@ export default function BlogPost({
             <h1 className="text-white text-center font-semibold text-4xl px-3 sm:text-4xl sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:px-72 xl:leading-tight">
               {attributes.title}
             </h1>
-            {/* <div>
+            <div>
               <Image
                 src={image}
                 alt="blog-post"
@@ -113,7 +113,7 @@ export default function BlogPost({
                 width={600}
                 height={400}
               />
-            </div> */}
+            </div>
             <div className="bg-[#151516] md:px-14 lg: rounded-3xl p-8 mt-8 lg:mt-12 text-[#C0C0C8] w-[335px] sm:w-[550px] md:w-[650px] lg:w-[850px] xl:w-[1000px]">
               <div
                 dangerouslySetInnerHTML={{ __html: htmlString }}
