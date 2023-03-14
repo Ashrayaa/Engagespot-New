@@ -5,7 +5,6 @@ import BlogsGrid from "@/src/modules/Blogs/BlogsGrid";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Blog4 from "public/Blog5.svg";
 
 interface BlogArticle {
   id: string;
@@ -53,19 +52,20 @@ export default function Blog({ result }: { result: BlogArticle[] }) {
               >
                 <Link href={`/blog/${result.id}`}>
                   <Image
-                    src={result?.attributes?.featured_image?.url}
+                    src={
+                      result?.attributes?.featured_image?.data?.attributes
+                        ?.formats?.medium?.url
+                    }
                     alt="BlogImage"
-                    width={120}
-                    height={200}
+                    width={500}
+                    height={280}
                     className="rounded-t-3xl"
                   />
-
-                  {/* <Image src={Blog4} alt="Inapp" className="rounded-t-3xl" /> */}
+                  
 
                   <h2 className="text-white text-2xl lg:text-3xl 2xl:text-4xl font-semibold tracking-wide p-6 px-14 hover:text-[#aa4875]">
                     {result.attributes.title}
                   </h2>
-                  {/* <p>{result.attributes.content}</p> */}
                   <h5 className="text-sm text-white px-14 pb-4">Read more</h5>
                 </Link>
               </div>

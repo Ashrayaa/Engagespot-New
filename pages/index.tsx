@@ -29,7 +29,7 @@ export default function Home() {
           content="Notification infrastructure platform for developers"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
       <main className="bg-black sm:pt-8 antialiased">
         <Header />
