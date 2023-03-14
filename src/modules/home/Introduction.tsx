@@ -13,7 +13,7 @@ const Introduction = (props: Props) => {
     <>
       <div className="lg:px-6 flex flex-col justify-center items-center mt-10 xl:mt-20">
         <div className="flex flex-col justify-center items-center gap-2 sm:gap-4">
-          <h1 className="text-white text-center font-semibold px-3 text-4xl leading-snug sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-[106px] xl:px-24 2xl:px-32 xl:leading-none">
+          <h1 className="text-white text-center font-semibold px-3 text-4xl leading-snug sm:px-14 md:text-5xl lg:text-6xl xl:font-bold xl:text-[97px] xl:px-24 2xl:px-32 xl:leading-none">
             Product notification 🚀 infrastructure
           </h1>
           
