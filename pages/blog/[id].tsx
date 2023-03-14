@@ -55,8 +55,11 @@ export const getStaticProps = async ({
   const markdownWithMeta = await res.json();
   const title = fm(markdownWithMeta?.data?.attributes?.title || "");
   const parsedMarkdown = fm(markdownWithMeta?.data?.attributes?.content || "");
-  const htmlString = marked(parsedMarkdown.body,);
-
+  const regex = /\n\n+/g;
+  const modifiedMarkdown = parsedMarkdown.body.replace(regex, "\n");
+  const htmlString = marked(modifiedMarkdown);
+  
+ // result.attributes.featured_image.url
   const image = (markdownWithMeta?.data?.attributes?.featured_image?.url|| "");
   console.log(image);
 
